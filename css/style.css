@@ -1,0 +1,956 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    scroll-behavior: smooth;
+    background: url('../img/motors/pexels-rangga-aditya-armien-235222\ 2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Top navigation bar */
+header{
+    width: 100%;
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    transition: all 0.5s;
+    /* border-bottom: 2px solid #d1d1d1; */
+    background: #FFFFFF;
+    height: 124px;
+    z-index: 99;
+}
+
+.header-nav{
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Logo Image */
+header img{
+    width: 130px;
+    height: 100px;
+}
+
+.header-nav .brand{  
+    padding-top: 0px;
+    display: flex;
+}
+
+/* Navigation menu */
+.header-nav .nav-menu{
+    list-style: none;
+    display: flex; 
+    gap: 50px;
+    
+}
+
+.header-nav li a{
+    text-decoration: none;
+    color: #838383;
+    font-weight: 500;
+    font-size: 16px;
+    border-bottom: 3px solid transparent;
+    transition: 0.5s ease-in-out ;
+    padding: 10px;
+}
+
+
+.header-nav li a:is(:link, :active, :visited).active{
+    background: -webkit-linear-gradient(#0038FF, #00D1FF);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    border-bottom: 3px solid #003BEC;
+}
+
+.header-nav li a:hover{
+    background: -webkit-linear-gradient(#0038FF, #00D1FF);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+/* Button Login */
+.btn-login{
+    display: flex;
+    border-radius: 100px;
+    height: 60px;
+    width:  100px;
+    border:3px solid #003BEC !important;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 20px;
+    
+}
+
+.btn-login a{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: #003BEC;
+      
+}
+
+
+/* --------------------------Intro Section-------------------------------- */
+
+.Baluyot { /*main container*/
+    background-image: url('../img/bg1.jpg'),url('../img/bg2.png');
+    background-position: 0px 0px, 0px 667px;
+    background-repeat: no-repeat;
+    background-size: 100% 667px, 100% 534px;
+    width: 100%;
+  }
+
+.logoB{
+    margin-top: 50px;
+}
+
+.carsB{
+    margin-top: -230px;
+}
+
+.centerB {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txtB{ /*text format*/
+    font-family: "Montserrat";
+    left: 46px;
+}
+
+.T1{
+    color: black;
+    font-size: 80px;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-top: 0px;
+}
+
+.T2{
+    color: blue;
+    font-size: 80px;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-top: -50px;
+ 
+}
+
+.T3{
+    color: black;
+    font-size: 20px;
+    font-weight: normal;
+    margin-left: 10%;
+    margin-top: -40px;
+}
+
+.btnB{ /*button format*/
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 18x;
+    border-radius: 35px;
+    padding: 14px 40px;
+}
+
+.button1B{
+    color: #fff;
+    border: transparent;
+    background: #2193b0; 
+    background: linear-gradient(111.69deg, #0038FF, #00D1FF); 
+    margin-left: 10%;
+}
+
+.button2B{
+    color: blue;
+    background-color: transparent;
+    border-color: blue;
+    margin-left: 10px;
+    margin-bottom: 43px;
+}
+
+.button1B:hover{
+    color: black;
+    cursor: pointer;
+}
+.button2B:hover{
+    background: linear-gradient(111.69deg, #0038FF, #00D1FF); 
+    color: white;
+    cursor: pointer;
+}
+
+
+/* ----------------Carousel----------------------- */
+
+
+.section2{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 643px;
+
+} 
+
+.bgc-1{
+    width: 100%;
+    height: 643px;
+    background: url('../img/How to Property 1= Default.png');
+    background-repeat: no-repeat;
+    background-size:cover; 
+}
+
+.bgc-2{
+    width: 100%;
+    height: 643px;
+    background: url('../img/How to Variant2.png');
+    background-repeat: no-repeat;
+    background-size:cover; 
+}
+
+.bgc-3{
+    width: 100%;
+    height: 643px;
+    background: url('../img/How to Variant3.png');
+    background-repeat: no-repeat;
+    background-size:cover; 
+}
+
+.bgc-4{
+    width: 100%;
+    height: 643px;
+    background: url('../img/How to Variant4.png');
+    background-repeat: no-repeat;
+    background-size:cover; 
+    
+}
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+
+.carousel-indicators li{
+    width: 11px !important;
+    height: 11px !important;
+    border-radius: 50px;
+    transition: 0.5s ease-in-out;
+}
+
+.carousel-indicators .active{
+    background-color:#003BEC !important;
+    width: 30px !important;
+}
+.carousel-item .content-carousel{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    padding: 40px 10px;
+}
+
+.content-carousel h2{
+    font-weight: 800;
+    font-size: 53px;
+}
+
+.content-carousel .colored-text2{
+    color: #0038FF;
+}
+
+/* Image alignment by step */
+
+.content-carousel .frame1{
+    padding:0px 0px 0px 400px
+}
+.content-carousel .frame2{
+    padding:0px 0px 0px 50px
+}
+.content-carousel .frame3{
+    padding:0px 0px 0px 100px
+}
+.content-carousel .frame4{
+    padding:0px 200px 0px 0px
+}
+
+/* -----------------------------madam---------------------------------------------------------------*/
+
+.section3{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 1110px;
+}
+
+.cay{
+    position: absolute;
+    /*top: 1969px; my position*/
+    width: 100%;
+    height: 1110px;
+}
+
+.firstline{
+    text-align: center;
+    font-weight: 800;
+    font-size: 48px;
+    margin-top: 50px;
+}
+em{
+    font-style: normal;
+    color: blue;
+}
+.secondline{
+    text-align: center;
+    font-weight: 800;
+}
+.thirdline{
+    text-align: center;
+}
+.cars1{
+    width: 100%;
+    background: url('../img/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+
+}
+.cars1 .container{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.pricedeets  {
+    display: flex;
+    justify-content: space-between;
+}
+.pricedeets .btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: #003BEC;
+
+
+}
+
+.cars1 .view{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #003BEC;
+    padding: 10px;
+    width: 500px;
+    border-radius: 50px;
+
+  
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    font-size: 24px
+    
+}
+
+.img-top{
+    overflow: hidden;
+}
+
+.img-top img{
+ 
+  
+/*  add transition to the container  */
+  
+  transition: all .5s ease-in-out;
+}
+
+.img-top:hover img{
+
+    transform: scale(1.2) rotate(0deg);
+   
+
+}
+
+/* ----------------------------Motor--------------------------------------- */
+.section4{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 1110px;
+}
+
+.motor-contain{
+    display: flex;
+    flex-direction: column;
+}
+
+.paragraph{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    text-align: center; 
+}
+.motor{
+    width: 100%;
+    background: url('../img/bgmotor.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+}
+.motor .content{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.motor .viewall{
+    text-align: center;
+    color: white;
+    background-color: #003BEC;
+    padding: 10px;
+    width: 500px;
+    border-radius: 50px;
+    font-size: 24px;
+
+}
+
+
+/* --------------------------------subcribe---------------------------------------- */
+
+.div1{
+    display: flex;
+    direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.sign {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 40px;
+    width: 750px;
+    margin-left: 15px;
+    top: 0px;
+    margin-bottom: 0px;
+}
+.java {
+    color: rgb(0, 59, 236);
+}
+
+.text1 {
+    opacity: 60%;
+    color: rgb(12, 17, 31) 
+    font-family Poppins;
+    font-weight: 400;
+    font-size: 20px;
+    width: 550px;
+    margin-left: 15px;
+    top: 0px;
+}
+
+.email {
+    font-family: Poppins;
+    font-weight: 400;
+    size: 20px;
+    width: 370px;
+    border-radius: 23px;
+    padding: 15px;
+    margin-left: 15px;
+    margin: px;
+    border: none;
+    background-color: rgb(237, 237, 237);
+    margin-bottom: 20px;
+}
+.subscribe {
+    background: linear-gradient(135deg, #003BEC 0%, #016AC6 100%);
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    display: flex;
+    flex-direction: flow;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 14px 32px;
+    gap: 8px;
+    position: absolute;
+    border-radius: 32px; 
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+
+.car {
+    position: absolute;
+    width: 556px;
+    height: 451;
+    justify-content: end;
+    align-items: end;
+    margin-top: 140px;
+    margin-left: 550px;
+}
+
+/* ----------------------------Brands---------------------------------- */
+
+.main_cont {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 90px 50px 50px 50px;
+    
+}
+.text_cont {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.start {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.title {
+    color: rgb(0, 59, 236)
+ }
+ .img_cont {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;     
+ }
+ .dahon {
+    width: 236px;
+    height: 94px;
+    transition: all .5s ease-in-out;
+ }
+ .dahon1 {
+    width: 232px;
+    height: 69px;
+    transition: all .5s ease-in-out;
+ }
+ .dahon2 {
+    width: 113px;
+    height: 59px;
+    transition: all .5s ease-in-out;
+ }
+ .dahon3 {
+    width: 238px;
+    height: 51px;
+    transition: all .5s ease-in-out;
+ }
+ .dahon:hover {
+    transform: scale(1.2) rotate(0deg);
+ }
+ .dahon1:hover {
+    transform: scale(1.2) rotate(0deg); 
+ }
+ .dahon2:hover {
+    transform: scale(1.2) rotate(0deg);
+ }
+ .dahon3:hover {
+    transform: scale(1.2) rotate(0deg); 
+ }
+
+ /* ------------------------------What did they say part Review--------------------------------- */
+
+ .tainer1 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+    padding: 90px 50px 50px 50px;
+    
+}
+.webtit {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 57px;
+    text-transform: capitalize;
+    color: rgb(22, 25, 30);
+    width: 500px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    
+}
+.webtit2 {
+    color: rgb(0, 59, 236);
+}
+.para {
+    width: 500px;
+    height: 72px;
+    margin-left: 100px;
+    margin-top: 1px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    opacity: 0.6;
+    margin-top: 5px;
+}
+.tainer2 {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.boy {
+    width: 60px;
+    height: 60px;
+    left: 700px;
+    margin-top: 30px;
+}
+.name1 {
+    width: 145px;
+    height: 32px;
+    margin-top: 40px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    left: 700px;
+    margin-top: 1px;
+    margin-bottom: 5px;
+}
+.master {
+    width: 100px;
+    left: 700px;
+    top: 135px;
+}
+.cha {
+    width: 435px;
+    height: 96px;
+    left: 700px;
+    top: 150px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    letter-spacing: -0.01em;
+    opacity: 0.6;
+}
+.tainer3 {  
+    background-color: #FFFFFF;
+    width: 445px;
+    height: 300px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* -------------------------FAQs--------------------------------------------------- */
+.section7{ 
+    height: 100%; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+} 
+ 
+.header-faq{ 
+    width: 80%; 
+    display: flex; 
+    align-items: start; 
+    justify-content: start; 
+} 
+ 
+ 
+.header-faq p{ 
+    font-weight: bold; 
+    font-size: 32px; 
+ 
+} 
+ 
+.accordion-header{ 
+    padding: 20px 10px; 
+} 
+ 
+.accordion-button:not(.collapsed){ 
+    background-color: transparent !important; 
+} 
+ 
+.accordion-button{ 
+    color: #003BEC !important; 
+    font-weight: bold; 
+} 
+ 
+.accordion-button:focus{ 
+    border-color: white !important; 
+} 
+ 
+ 
+.acc-cont{ 
+    width: 80%; 
+} 
+ 
+.accordion{ 
+    display: flex; 
+    flex-direction: column; 
+    gap:20px; 
+} 
+ 
+.accordion-button::after { 
+    font-family: 'FontAwesome' !important;   
+    content: "\f067" !important;  
+    background-image: none !important; 
+    float: right;  
+} 
+ 
+.accordion-button:not(.collapsed)::after{ 
+    /* symbol for "collapsed" panels */ 
+    content: "\f068" !important; 
+} 
+ 
+.accordion-item:first-of-type .accordion-button{ 
+    border-top-right-radius: 15px !important; 
+    border-top-left-radius: 15px !important; 
+} 
+ 
+.accordion-item{ 
+    border-bottom-left-radius: 15px; 
+    border-bottom-right-radius: 15px; 
+    border-top-right-radius: 15px !important; 
+    border-top-left-radius: 15px !important; 
+     
+}
+
+ /* --------------------------------Footer------------------------------------------ */
+
+ footer{ 
+    width: 100%; 
+    height: 100%; 
+ } 
+ 
+ footer .footer-container{ 
+    width: 100%; 
+    height: 100%; 
+    background: url('../img/pexels-torsten-dettlaff-70912\ \(1\)\ 1\ \(1\).png'); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-color: #003BEC; 
+ 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+ 
+    color: white; 
+ 
+    gap: 50px; 
+ } 
+ 
+ .footer-container .header-container{ 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+ 
+    margin-top: 200px; 
+ } 
+ 
+ .header-container h2{ 
+    font-family: 'Montserrat'; 
+    font-weight: bold; 
+    font-size: 40px; 
+ } 
+ 
+ .header-container p{ 
+    width: 590px; 
+    text-align: center; 
+    font-weight: lighter; 
+ } 
+ 
+.navigation-container{ 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+ 
+    gap: 150px; 
+ 
+    margin-bottom: 150px; 
+ 
+ 
+  } 
+ 
+ .navigation-container img{ 
+    width: 86px; 
+    height: 66px; 
+    margin-top: -20px; 
+ } 
+ 
+ .logo-contain{ 
+    display: flex; 
+    flex-direction: column; 
+ 
+ 
+ } 
+ 
+ .sub-btn{ 
+    margin-top: 50px; 
+ } 
+ 
+ .subcribe-btn{ 
+ 
+    width: 200px; 
+    height: 200px; 
+    background: #fff; 
+    color: #000; 
+    border-radius: 50px; 
+ 
+    padding: 20px; 
+ } 
+ 
+ .logo-main{ 
+    display: flex; 
+ 
+ } 
+ 
+.logo-contain{ 
+    margin-top: -75px; 
+} 
+ .logo-main h3{ 
+    font-size: 20px; 
+    font-family: 'Poppins'; 
+    font-weight: bold; 
+ } 
+ 
+ .logo-contain p{ 
+    width: 253px; 
+    font-size: 16px; 
+    text-align: left; 
+    font-weight: lighter; 
+    color:#FFFFFF 
+ } 
+ 
+ .buy-contain{ 
+    display: flex; 
+    flex-direction: column; 
+ 
+ } 
+ .list-mode{ 
+    display: flex; 
+    flex-direction: row; 
+ 
+    gap: 100px; 
+    margin-top: 40px; 
+ } 
+ 
+.list-mode h3{ 
+    margin-bottom: 30px; 
+    font-size: 14px; 
+    font-weight: bold; 
+ } 
+ 
+.list-mode ul{ 
+    list-style: none; 
+    display: flex; 
+    flex-direction: column; 
+    gap: 20px; 
+    padding-left: 0 !important; 
+     
+ } 
+ 
+ .list-mode li a{ 
+    color: #FFFFFF; 
+    text-decoration: none !important; 
+ } 
+ 
+  .list-mode li a:hover{ 
+    text-decoration: underline !important; 
+ } 
+ 
+  
+ 
+ .list-mode p{ 
+    width: 275px; 
+ } 
+ 
+.socials ul{ 
+    display: flex !important; 
+    flex-direction: row; 
+    text-decoration: none; 
+} 
+ 
+.socials li{ 
+    font-size: 20px; 
+    border-radius: 50px; 
+    border: 1px solid #fff; 
+    width: 40px; 
+    height: 40px; 
+    text-align: center; 
+    padding: 5px; 
+} 
+ 
+.terms-container{ 
+    display: flex !important; 
+ 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: -200px; 
+} 
+ 
+.terms-container ul{ 
+    list-style: none; 
+    display: flex; 
+    gap: 50px; 
+} 
+ 
+.terms-container li a{ 
+    color: white; 
+    text-decoration: none; 
+} 
+ 
+.terms-container li a:hover{ 
+    text-decoration: underline !important; 
+}
+.btnolsen {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.btnolsen button {
+    background: #FFFFFF;
+    width: 34.18px;
+    height: 34px;
+    border-radius: 50px;
+    border: none;
+
+}
+.btnolsen button:focus{
+    background: #000;
+    color: #FFFFFF;
+}
+.btnolsen button:hover{
+    background: #000;
+    color: #FFFFFF;
+}
