@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cars Page</title>
+    <link rel="stylesheet" href="./css/carsPage.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <!--Logo-->
+      <div class="brand">
+        <img src="./img/Logo Design 2 2.png" alt="logo" />
+      </div>
+      <!--Tabs-->
+      <nav class="header-nav">
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#" class="active">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="./carsPage.html">Cars</a>
+          </li>
+          <li class="nav-item">
+            <a href="./MotorPage.html">Motorcycles</a>
+          </li>
+          <li class="nav-item">
+            <a href="./aboutus.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="./ContactPage.html">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="btn-login">
+        <a href="SignIn.html">Login</a>
+      </div>
+    </header>
+    <section class="carsPage">
+      <div class="center">
+        <p class="titleTxt">
+          Java Auto Motor
+          <span class="highlightBlue">Car Program Calculator</span>
+        </p>
+      </div>
+
+      <div class="center">
+        <div class="loanCalculator">
+          <!-- left part -->
+          <div class="Estimated">
+            <p class="CPH1">Estimated Program Payments</p>
+            <div>
+              <p class="CPTxt1">Select Vehicles</p>
+              <select class="carsPageDd1" name="cars" id="cars">
+                <option value="select">Select</option>
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+              </select>
+            </div>
+            <div class="CPInputCont">
+              <div class="CPInput1">
+                <p class="CPTxt1">SRP</p>
+                <form action="/carsPage.html">
+                  <input
+                    type="text"
+                    id="fname"
+                    name="fname"
+                    class="CPF1"
+                  /><br /><br />
+                </form>
+              </div>
+              <div class="CPInput2">
+                <p class="CPTxt1">Terms</p>
+                <form action="/carsPage.html">
+                  <input
+                    type="text"
+                    id="fname"
+                    name="fname"
+                    class="CPF1"
+                  /><br /><br />
+                </form>
+              </div>
+            </div>
+
+            <div>
+              <p class="CPTxt1">Dealer’s Percentage Downpayment</p>
+              <select class="carsPageDd1" name="cars" id="cars">
+                <option value="select">Select</option>
+                <option value="1">1%&emsp;&emsp;&emsp;&emsp;</option>
+                <option value="2">2&</option>
+                <option value="3">3%</option>
+                <option value="4">4%</option>
+              </select>
+            </div>
+            <div>
+              <p class="CPTxt1">Dealer’s Monthly Downpayment</p>
+              <select class="carsPageDd1" name="cars" id="cars">
+                <option value="select">Select</option>
+                <option value="12">12 months</option>
+                <option value="24">12 months</option>
+                <option value="36">12 months</option>
+                <option value="48">12 months</option>
+              </select>
+            </div>
+          </div>
+          <!-- right part -->
+          <div class="SelectVehicle">
+            <p class="CPH2">Select <br />Vehicle</p>
+            <p class="CPTxt2">
+              The calculator will help you determine the estimated monthly
+              <br />
+              payments for your desired car loan. Please visit our branch to
+              <br />
+              get a final computation.
+            </p>
+            <button class="CPBtn1">Create Your Plan!</button>
+          </div>
+        </div>
+      </div>
+      <!----------------------- popular cars ------------------------------------------------->
+      <div class="center">
+        <div>
+          <p class="CPH3">
+            <span class="CPBlue1"> Popular</span> Cars<br />Great And Fast
+          </p>
+        </div>
+      </div>
+      <div class="center">
+        <div>
+          <p class="CPTxt2">
+            There are many choices of very cool cars from various famous brands
+            in the world<br />
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;This week there are a lot
+            of really cool and cheap cars
+          </p>
+        </div>
+      </div>
+      <!----------------------- filter cars -------------------------------------------------->
+      <div class="center">
+        <div>
+          <ul class="CPNav">
+            <li><a href="#all">All</a></li>
+            <li><a href="#honda">Honda</a></li>
+            <li><a href="#toyota">Toyota</a></li>
+            <li><a href="#kia">Kia</a></li>
+            <li><a href="#suzuki">Suzuki</a></li>
+            <li><a href="#isuzu">Isuzu</a></li>
+          </ul>
+        </div>
+        <div class="CPNavSearch">
+          <div class="circleSearch"></div>
+          <div class="handleSearch"></div>
+        </div>
+      </div>
+      <!----------------------- cards -------------------------------------------------->
+      <div class="center">
+        <div class="containerCards">
+          <div class="cards">
+            <div class="imgCard">
+              <div class="star">
+                <div class="roundStar">
+                  <span class="fa fa-star"></span>
+                </div>
+                <p class="ratingCard">5.0</p>
+              </div>
+              <img
+                src="./img/CarsPage/fordRaptor.png"
+                alt="Ford Raptor"
+                class="imgCardCar"
+              />
+            </div>
+            <p class="titleCards">Ford Raptor</p>
+            <p class="descCards">
+              Great car with very durable electrical power and <br />
+              a very modern design.
+            </p>
+            <p class="titleCards">$109,145.00</p>
+            <button class="btnCards">Details</button>
+          </div>
+          <div class="cards">
+            <div class="imgCard">
+              <div class="star">
+                <div class="roundStar">
+                  <span class="fa fa-star"></span>
+                </div>
+                <p class="ratingCard">5.0</p>
+              </div>
+              <img
+                src="./img/CarsPage/fordMustang.png"
+                alt="Ford Mustang"
+                class="imgCardCar"
+              />
+            </div>
+            <p class="titleCards">Ford Mustang</p>
+            <p class="descCards">
+              A really great speed car with a very light and cool<br />
+              and powerful engine.
+            </p>
+            <p class="titleCards">$109,145.00</p>
+            <button class="btnCards">Details</button>
+          </div>
+          <div class="cards">
+            <div class="imgCard">
+              <div class="star">
+                <div class="roundStar">
+                  <span class="fa fa-star"></span>
+                </div>
+                <p class="ratingCard">5.0</p>
+              </div>
+              <img
+                src="./img/CarsPage/fordExpedition.png"
+                alt="Ford Mustang"
+                class="imgCardCar"
+              />
+            </div>
+            <p class="titleCards">Ford Expedition</p>
+            <p class="descCards">
+              A really great speed car with a very light and cool<br />
+              and powerful engine.
+            </p>
+            <p class="titleCards">$109,145.00</p>
+            <button class="btnCards">Details</button>
+          </div>
+          <div class="cards">
+            <div class="imgCard">
+              <div class="star">
+                <div class="roundStar">
+                  <span class="fa fa-star"></span>
+                </div>
+                <p class="ratingCard">5.0</p>
+              </div>
+              <img
+                src="./img/CarsPage/fordRaptor.png"
+                alt="Ford Raptor"
+                class="imgCardCar"
+              />
+            </div>
+            <p class="titleCards">Ford Raptor</p>
+            <p class="descCards">
+              Great car with very durable electrical power and <br />
+              a very modern design.
+            </p>
+            <p class="titleCards">$109,145.00</p>
+            <button class="btnCards">Details</button>
+          </div>
+          <div class="cards">
+            <div class="imgCard">
+              <div class="star">
+                <div class="roundStar">
+                  <span class="fa fa-star"></span>
+                </div>
+                <p class="ratingCard">5.0</p>
+              </div>
+              <img
+                src="./img/CarsPage/fordMustang.png"
+                alt="Ford Mustang"
+                class="imgCardCar"
+              />
+            </div>
+            <p class="titleCards">Ford Mustang</p>
+            <p class="descCards">
+              A really great speed car with a very light and cool<br />
+              and powerful engine.
+            </p>
+            <p class="titleCards">$109,145.00</p>
+            <button class="btnCards">Details</button>
+          </div>
+          <div class="cards">
+            <div class="imgCard">
+              <div class="star">
+                <div class="roundStar">
+                  <span class="fa fa-star"></span>
+                </div>
+                <p class="ratingCard">5.0</p>
+              </div>
+              <img
+                src="./img/CarsPage/fordExpedition.png"
+                alt="Ford Mustang"
+                class="imgCardCar"
+              />
+            </div>
+            <p class="titleCards">Ford Expedition</p>
+            <p class="descCards">
+              A really great speed car with a very light and cool<br />
+              and powerful engine.
+            </p>
+            <p class="titleCards">$109,145.00</p>
+            <button class="btnCards">Details</button>
+          </div>
+          <div class="cards">
+            <div class="imgCard">
+              <div class="star">
+                <div class="roundStar">
+                  <span class="fa fa-star"></span>
+                </div>
+                <p class="ratingCard">5.0</p>
+              </div>
+              <img
+                src="./img/CarsPage/fordRaptor.png"
+                alt="Ford Raptor"
+                class="imgCardCar"
+              />
+            </div>
+            <p class="titleCards">Ford Raptor</p>
+            <p class="descCards">
+              Great car with very durable electrical power and <br />
+              a very modern design.
+            </p>
+            <p class="titleCards">$109,145.00</p>
+            <button class="btnCards">Details</button>
+          </div>
+          <div class="cards">
+            <div class="imgCard">
+              <div class="star">
+                <div class="roundStar">
+                  <span class="fa fa-star"></span>
+                </div>
+                <p class="ratingCard">5.0</p>
+              </div>
+              <img
+                src="./img/CarsPage/fordMustang.png"
+                alt="Ford Mustang"
+                class="imgCardCar"
+              />
+            </div>
+            <p class="titleCards">Ford Mustang</p>
+            <p class="descCards">
+              A really great speed car with a very light and cool<br />
+              and powerful engine.
+            </p>
+            <p class="titleCards">$109,145.00</p>
+            <button class="btnCards">Details</button>
+          </div>
+          <div class="cards">
+            <div class="imgCard">
+              <div class="star">
+                <div class="roundStar">
+                  <span class="fa fa-star"></span>
+                </div>
+                <p class="ratingCard">5.0</p>
+              </div>
+              <img
+                src="./img/CarsPage/fordExpedition.png"
+                alt="Ford Mustang"
+                class="imgCardCar"
+              />
+            </div>
+            <p class="titleCards">Ford Expedition</p>
+            <p class="descCards">
+              A really great speed car with a very light and cool<br />
+              and powerful engine.
+            </p>
+            <p class="titleCards">$109,145.00</p>
+            <button class="btnCards">Details</button>
+          </div>
+          <div class="cards">
+            <div class="imgCard">
+              <div class="star">
+                <div class="roundStar">
+                  <span class="fa fa-star"></span>
+                </div>
+                <p class="ratingCard">5.0</p>
+              </div>
+              <img
+                src="./img/CarsPage/fordRaptor.png"
+                alt="Ford Raptor"
+                class="imgCardCar"
+              />
+            </div>
+            <p class="titleCards">Ford Raptor</p>
+            <p class="descCards">
+              Great car with very durable electrical power and <br />
+              a very modern design.
+            </p>
+            <p class="titleCards">$109,145.00</p>
+            <button class="btnCards">Details</button>
+          </div>
+          <div class="cards">
+            <div class="imgCard">
+              <div class="star">
+                <div class="roundStar">
+                  <span class="fa fa-star"></span>
+                </div>
+                <p class="ratingCard">5.0</p>
+              </div>
+              <img
+                src="./img/CarsPage/fordMustang.png"
+                alt="Ford Mustang"
+                class="imgCardCar"
+              />
+            </div>
+            <p class="titleCards">Ford Mustang</p>
+            <p class="descCards">
+              A really great speed car with a very light and cool<br />
+              and powerful engine.
+            </p>
+            <p class="titleCards">$109,145.00</p>
+            <button class="btnCards">Details</button>
+          </div>
+          <div class="cards">
+            <div class="imgCard">
+              <div class="star">
+                <div class="roundStar">
+                  <span class="fa fa-star"></span>
+                </div>
+                <p class="ratingCard">5.0</p>
+              </div>
+              <img
+                src="./img/CarsPage/fordExpedition.png"
+                alt="Ford Mustang"
+                class="imgCardCar"
+              />
+            </div>
+            <p class="titleCards">Ford Expedition</p>
+            <p class="descCards">
+              A really great speed car with a very light and cool<br />
+              and powerful engine.
+            </p>
+            <p class="titleCards">$109,145.00</p>
+            <button class="btnCards">Details</button>
+          </div>
+          <div class="cards">
+            <div class="imgCard">
+              <div class="star">
+                <div class="roundStar">
+                  <span class="fa fa-star"></span>
+                </div>
+                <p class="ratingCard">5.0</p>
+              </div>
+              <img
+                src="./img/CarsPage/fordRaptor.png"
+                alt="Ford Raptor"
+                class="imgCardCar"
+              />
+            </div>
+            <p class="titleCards">Ford Raptor</p>
+            <p class="descCards">
+              Great car with very durable electrical power and <br />
+              a very modern design.
+            </p>
+            <p class="titleCards">$109,145.00</p>
+            <button class="btnCards">Details</button>
+          </div>
+          <div class="cards">
+            <div class="imgCard">
+              <div class="star">
+                <div class="roundStar">
+                  <span class="fa fa-star"></span>
+                </div>
+                <p class="ratingCard">5.0</p>
+              </div>
+              <img
+                src="./img/CarsPage/fordMustang.png"
+                alt="Ford Mustang"
+                class="imgCardCar"
+              />
+            </div>
+            <p class="titleCards">Ford Mustang</p>
+            <p class="descCards">
+              A really great speed car with a very light and cool<br />
+              and powerful engine.
+            </p>
+            <p class="titleCards">$109,145.00</p>
+            <button class="btnCards">Details</button>
+          </div>
+          <div class="cards">
+            <div class="imgCard">
+              <div class="star">
+                <div class="roundStar">
+                  <span class="fa fa-star"></span>
+                </div>
+                <p class="ratingCard">5.0</p>
+              </div>
+              <img
+                src="./img/CarsPage/fordExpedition.png"
+                alt="Ford Mustang"
+                class="imgCardCar"
+              />
+            </div>
+            <p class="titleCards">Ford Expedition</p>
+            <p class="descCards">
+              A really great speed car with a very light and cool<br />
+              and powerful engine.
+            </p>
+            <p class="titleCards">$109,145.00</p>
+            <button class="btnCards">Details</button>
+          </div>
+          <div class="cards">
+            <div class="imgCard">
+              <div class="star">
+                <div class="roundStar">
+                  <span class="fa fa-star"></span>
+                </div>
+                <p class="ratingCard">5.0</p>
+              </div>
+              <img
+                src="./img/CarsPage/fordRaptor.png"
+                alt="Ford Raptor"
+                class="imgCardCar"
+              />
+            </div>
+            <p class="titleCards">Ford Raptor</p>
+            <p class="descCards">
+              Great car with very durable electrical power and <br />
+              a very modern design.
+            </p>
+            <p class="titleCards">$109,145.00</p>
+            <button class="btnCards">Details</button>
+          </div>
+          <div class="cards">
+            <div class="imgCard">
+              <div class="star">
+                <div class="roundStar">
+                  <span class="fa fa-star"></span>
+                </div>
+                <p class="ratingCard">5.0</p>
+              </div>
+              <img
+                src="./img/CarsPage/fordMustang.png"
+                alt="Ford Mustang"
+                class="imgCardCar"
+              />
+            </div>
+            <p class="titleCards">Ford Mustang</p>
+            <p class="descCards">
+              A really great speed car with a very light and cool<br />
+              and powerful engine.
+            </p>
+            <p class="titleCards">$109,145.00</p>
+            <button class="btnCards">Details</button>
+          </div>
+          <div class="cards">
+            <div class="imgCard">
+              <div class="star">
+                <div class="roundStar">
+                  <span class="fa fa-star"></span>
+                </div>
+                <p class="ratingCard">5.0</p>
+              </div>
+              <img
+                src="./img/CarsPage/fordExpedition.png"
+                alt="Ford Mustang"
+                class="imgCardCar"
+              />
+            </div>
+            <p class="titleCards">Ford Expedition</p>
+            <p class="descCards">
+              A really great speed car with a very light and cool<br />
+              and powerful engine.
+            </p>
+            <p class="titleCards">$109,145.00</p>
+            <button class="btnCards">Details</button>
+          </div>
+          <div class="cards">
+            <div class="imgCard">
+              <div class="star">
+                <div class="roundStar">
+                  <span class="fa fa-star"></span>
+                </div>
+                <p class="ratingCard">5.0</p>
+              </div>
+              <img
+                src="./img/CarsPage/fordRaptor.png"
+                alt="Ford Raptor"
+                class="imgCardCar"
+              />
+            </div>
+            <p class="titleCards">Ford Raptor</p>
+            <p class="descCards">
+              Great car with very durable electrical power and <br />
+              a very modern design.
+            </p>
+            <p class="titleCards">$109,145.00</p>
+            <button class="btnCards">Details</button>
+          </div>
+          <div class="cards">
+            <div class="imgCard">
+              <div class="star">
+                <div class="roundStar">
+                  <span class="fa fa-star"></span>
+                </div>
+                <p class="ratingCard">5.0</p>
+              </div>
+              <img
+                src="./img/CarsPage/fordMustang.png"
+                alt="Ford Mustang"
+                class="imgCardCar"
+              />
+            </div>
+            <p class="titleCards">Ford Mustang</p>
+            <p class="descCards">
+              A really great speed car with a very light and cool<br />
+              and powerful engine.
+            </p>
+            <p class="titleCards">$109,145.00</p>
+            <button class="btnCards">Details</button>
+          </div>
+          <div class="cards">
+            <div class="imgCard">
+              <div class="star">
+                <div class="roundStar">
+                  <span class="fa fa-star"></span>
+                </div>
+                <p class="ratingCard">5.0</p>
+              </div>
+              <img
+                src="./img/CarsPage/fordExpedition.png"
+                alt="Ford Mustang"
+                class="imgCardCar"
+              />
+            </div>
+            <p class="titleCards">Ford Expedition</p>
+            <p class="descCards">
+              A really great speed car with a very light and cool<br />
+              and powerful engine.
+            </p>
+            <p class="titleCards">$109,145.00</p>
+            <button class="btnCards">Details</button>
+          </div>
+          <div class="cards">
+            <div class="imgCard">
+              <div class="star">
+                <div class="roundStar">
+                  <span class="fa fa-star"></span>
+                </div>
+                <p class="ratingCard">5.0</p>
+              </div>
+              <img
+                src="./img/CarsPage/fordRaptor.png"
+                alt="Ford Raptor"
+                class="imgCardCar"
+              />
+            </div>
+            <p class="titleCards">Ford Raptor</p>
+            <p class="descCards">
+              Great car with very durable electrical power and <br />
+              a very modern design.
+            </p>
+            <p class="titleCards">$109,145.00</p>
+            <button class="btnCards">Details</button>
+          </div>
+          <div class="cards">
+            <div class="imgCard">
+              <div class="star">
+                <div class="roundStar">
+                  <span class="fa fa-star"></span>
+                </div>
+                <p class="ratingCard">5.0</p>
+              </div>
+              <img
+                src="./img/CarsPage/fordMustang.png"
+                alt="Ford Mustang"
+                class="imgCardCar"
+              />
+            </div>
+            <p class="titleCards">Ford Mustang</p>
+            <p class="descCards">
+              A really great speed car with a very light and cool<br />
+              and powerful engine.
+            </p>
+            <p class="titleCards">$109,145.00</p>
+            <button class="btnCards">Details</button>
+          </div>
+          <div class="cards">
+            <div class="imgCard">
+              <div class="star">
+                <div class="roundStar">
+                  <span class="fa fa-star"></span>
+                </div>
+                <p class="ratingCard">5.0</p>
+              </div>
+              <img
+                src="./img/CarsPage/fordExpedition.png"
+                alt="Ford Mustang"
+                class="imgCardCar"
+              />
+            </div>
+            <p class="titleCards">Ford Expedition</p>
+            <p class="descCards">
+              A really great speed car with a very light and cool<br />
+              and powerful engine.
+            </p>
+            <p class="titleCards">$109,145.00</p>
+            <button class="btnCards">Details</button>
+          </div>
+        </div>
+        <!--container cards-->
+      </div>
+      <!--Newsletter-->
+    </section>
+    <!--MainContainer-->
+  </body>
+  <!--Footer-->
+  <footer>
+    <div class="footer-container">
+      <div class="header-container">
+        <h2>
+          Buy your desired vehicle at a <br />
+          very low easy payment scheme
+        </h2>
+        <p>
+          Get a free pouch from us for every purchase of at least $900.00 and
+          don't forget to subscribe again
+        </p>
+        <div class="sub-btn">
+          <a href="#" class="subcribe-btn">Subcribe</a>
+        </div>
+      </div>
+      <div class="navigation-container">
+        <div class="logo-contain">
+          <div class="logo-main">
+            <img src="./img/Logo Design 2 2.png" alt="" />
+            <h3>JAVA AUTO MOTORS</h3>
+          </div>
+
+          <p>
+            A place to change all your hair styles at a very cheap and great
+            price
+          </p>
+        </div>
+
+        <div class="list-mode">
+          <div class="categ-contain">
+            <h3>Categories</h3>
+
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./carsPage.html">Cars</a></li>
+              <li><a href="./MotorPage.html">Motorcycle</a></li>
+              <li><a href="./aboutus.html">About Us</a></li>
+            </ul>
+          </div>
+
+          <div class="contact-contain">
+            <h3>Contact us</h3>
+
+            <ul>
+              <li><a href="#">Get A Quote</a></li>
+              <li><a href="#">Customer Services</a></li>
+            </ul>
+          </div>
+
+          <div class="getin-contain">
+            <h3>Get in touch</h3>
+
+            <ul>
+              <li><a href="#">09760577462</a></li>
+              <li>
+                <p>
+                  Unit-14 J, Jenkinsen Tower, No. 80 Timog Avenue,Brgy Sacred
+                  Heart Quezon City
+                </p>
+              </li>
+            </ul>
+
+            <div class="socials">
+              <ul class="soc-menu">
+                <li class="soc-item">
+                  <a href="#" target="_blank">
+                    <i class="fa fa-facebook" title="Facebook"></i>
+                  </a>
+                </li>
+                <li class="soc-item">
+                  <a href="#" target="_blank">
+                    <i class="fa fa-twitter" title="Twitter"></i>
+                  </a>
+                </li>
+                <li class="soc-item">
+                  <a href="#" target="_blank">
+                    <i class="bi bi-tiktok" title="Tiktok"
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-tiktok"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z"
+                        /></svg
+                    ></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="terms-container">
+        <ul>
+          <li><a href="#">Terms & Condition</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</html>
