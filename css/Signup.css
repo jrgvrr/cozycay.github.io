@@ -1,0 +1,158 @@
+.mainjavaa {
+    width: 906px;
+    height: 620px;
+    top: 194px;
+    display: flex;
+    flex-direction: row-reverse;
+    background: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.divi11 {
+    background: url('../img/Signup/reg1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 320px;
+    height: 623px;
+}
+.para1 {
+    width: 100px;
+    height: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 24px;
+    line-height: 24px;
+    color: #000000;
+}
+.para2 {
+    width: 205px;
+    height: 24px; 
+    font: 'Poppins';  
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    align-items: center;
+    color: #000000;
+}
+.fname {
+    box-sizing: border-box;
+    width: 260px;
+    height: 60px;
+    padding: 10px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    
+}
+.lname {
+    box-sizing: border-box;
+    width: 260px;
+    height: 60px;
+    padding: 10px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);border-radius: 5px;
+}
+.divi2 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+.ename {
+    box-sizing: border-box;
+    width: 260px;
+    height: 60px;
+    padding: 10px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);border-radius: 5px;
+}
+.phnom {
+    box-sizing: border-box;
+    width: 260px;
+    height: 60px;
+    padding: 10px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);border-radius: 5px;
+}
+.divi3 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+.pass1 {
+    box-sizing: border-box;
+    width: 260px;
+    height: 60px;
+    padding: 10px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);border-radius: 5px;
+}
+.pass2 {
+    box-sizing: border-box;
+    width: 240px;
+    height: 60px;
+    padding: 10px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);border-radius: 5px;
+    border: none;
+}
+.divi4 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+.mainjava {
+    padding: 50px 30px 30px 15px;
+}
+
+.divi5 {
+    width: 300px;
+    height: 24px;
+    gap: 4px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 24px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    color: #000000;
+}
+.divi5 p {
+    margin-top: 15px;
+}
+.divi5 input {
+    border-radius: 60px;
+}
+.bi-check-circle{
+    color: beige;
+    margin-right:2px;
+    display: none;
+    ;
+}
+.recheck {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+.form-check-input {
+    border-radius: 50px !important;
+    margin-top: 6px !important;
+    width: 15px !important;
+    height: 15px !important;
+    
+}
+.form-check-input:checked {
+    background-color: black !important;
+    border-color: #000000 !important;
+}
