@@ -153,7 +153,7 @@ body{
 /*------------------------- Motor Section ------------------------ */
 .bg-contain{
     width: 100%;
-    height: 4200px;
+    height: auto;
 
     background: url('../img/motors/carbg.png');
     background-repeat: no-repeat;
@@ -168,6 +168,7 @@ body{
 .header-search{
     display: flex;
     gap: 20px;
+    margin-top: 20px;
 }
 
 .motors-nav{
