@@ -367,6 +367,8 @@ em{
 
 .img-top{
     overflow: hidden;
+    border-top-right-radius: 25px; 
+    border-top-left-radius: 25px; 
 }
 
 .img-top img{
