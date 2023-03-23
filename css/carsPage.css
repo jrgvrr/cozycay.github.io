@@ -1,0 +1,312 @@
+*{
+    font-family: "Montserrat";
+}
+.carsPage{
+    background-image: url('../img/CarsPage/carsPageb1.jpg'),
+                      url('../img/CarsPage/carsPagebg2.png');
+    background-position: 0px 0px,
+                         0px 1011px;
+    background-size: 100% 1011px,
+                     100% 4461px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 6986px;
+}
+
+.CPBlue1{
+    color: blue;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.CPH1{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-left: 60px;
+    padding-bottom: 40px;
+}
+.CPH2{
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-bottom: 0px;
+}
+.CPH3{
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-bottom: 0px;
+}
+.CPTxt1{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 60px;
+}
+.CPTxt2{
+    color: black;
+    font-size: 15px;
+    font-weight: normal;
+    padding-left: 60px;
+}
+
+.carsPageDd1{
+    color: black;
+    background-color: #f9f9f9;
+    background: white;
+    margin-left: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 450px;
+}
+.CPInputCont{
+    display: flex;
+}
+
+.CPInput1{
+    flex: 1;
+    margin-right: -45px;
+}
+
+.CPInput2{
+    flex: 2;
+
+}
+.Estimated{
+    flex: 1;
+}
+
+.SelectVehicle{
+    flex: 2;
+}
+
+.CPF1{
+    color: black;
+    border: 1px solid black;
+    background-color: white;
+    margin-left: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 80px;
+}
+
+.loanCalculator{
+    display: flex;
+    width: 1199px;
+    height: 567px;
+    background-color: white;
+    border-radius: 20px;
+
+}
+
+.CPBtn1{
+    color: white;
+    font-size: 15px;
+    font-weight: normal;
+    background-color: blue;
+    border-radius: 20px;
+    border: 1px solid blue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+.CPBtn1:hover{
+    color: blue;
+    background-color: white;
+    cursor: pointer;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.titleTxt{
+    margin-top: 150px;
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.highlightBlue{
+    color: blue;
+    font-size: 36px;
+    font-weight: bold;
+}
+/*----------------------CP nav--------------------------*/
+.CPNavSearch{
+    width: 64px;
+    height: 64px;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px grey;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.CPNav{
+    width: 515px;
+    height: 64px;
+    list-style-type: none;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px grey;
+    margin-top: 30px;
+}
+  
+li {
+    float: left;
+    margin-top: 2px;
+    margin-left: -20px;
+    margin-right: 22px;
+}
+  
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    font-size: 16;
+    font-weight: bold;
+    padding: 20px;
+
+    text-decoration: none;
+}
+
+li a:focus{
+    color: white;
+    background-color: blue;
+    border-radius: 30px;
+}
+.circleSearch{
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border: 3px solid black;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.handleSearch{
+    width: 5px;
+    height: 3px;
+    background-color: black;
+    rotate: 45deg;
+    border-radius: 0px 10px 10px 0px;
+    margin-top: -3px;
+    margin-left: 40px;
+}
+/*------------------CP cards------------------------------*/
+.containerCards{
+    display: flex;
+    width: 1440px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    width: 384px;
+    height: 459px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 30px;
+}
+.fa-star {
+    color: white;
+    margin-top: 4px;
+    margin-left: 4px
+}
+.star {
+    color: white;
+    position: absolute;
+    height: 36px;
+    width: 62px;
+    backdrop-filter: blur(15px);
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    z-index: 1;
+}
+.roundStar{
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    background-color: #F8C633;
+    border-radius: 30px;
+    margin-top: 5px;
+    margin-left: 6px;
+}
+
+.ratingCard{
+    color: white;
+    position: absolute;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+.imgCard{
+    width: 384px;
+    height: 239px;
+    overflow: hidden;
+    border-radius: 30px 30px 0 0;
+}
+.imgCardCar{
+    transition: transform .2s ease;
+}
+.imgCardCar:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.imgCard:hover .star {
+    animation: myfirst 1s 1;
+}
+@keyframes myfirst
+{
+    0%      {background:transparent;}
+    10%     {background:white;}
+}
+
+.titleCards{
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.descCards{
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 0px;
+    margin-left: 30px;
+}
+.btnCards{
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    width: 119px;
+    height: 52px;
+    background-color: blue;
+    border-radius: 30px;
+    border-color: transparent;
+    margin-top: -65px;
+    margin-left: 230px;
+}
+
+.btnCards:hover{
+    color: blue;
+    background-color: white;
+    border-color: blue;
+    cursor: pointer;
+}
