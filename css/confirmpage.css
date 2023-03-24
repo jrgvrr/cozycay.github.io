@@ -1,0 +1,259 @@
+.formLeft {
+    float: left;
+    width: 300px;
+    height: 56;
+    font-size: 15px;
+}
+
+#required {
+    font-size: 13px;
+}
+
+.appForm {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.appForm h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #003BEC;
+    margin-top: 50px;
+}
+
+.formRight {
+    float: right;
+    width: 253px;
+    height: 56;
+    font-size: 15px;
+}
+
+.col-12 {
+    float: left;
+}
+
+.reqRight {
+    margin-left: 100px;
+    margin-top: -30px;
+    float: right;
+    width: 253px;
+    height: 56;
+    font-size: 15px;
+}
+
+.personForm {
+    padding-left: 100px;
+    margin-top: -100px;
+    max-width: 700px;
+    width: 100%;
+    max-width: 900px;
+    width: 100%;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+.personForm h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #003BEC;
+    margin-top: 20px;
+}
+
+.personForm h6 {
+    color: rgb(180, 180, 180);
+}
+
+.personForm form {
+    position: relative;
+    margin-top: 16px;
+    min-height: 490px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.personForm form .form.second {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(100%);
+}
+
+form.secActive .form.second {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateX(0);
+}
+
+form.secActive .form.first {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(-100%);
+}
+
+.personForm form .fields {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+form .fields .input-field {
+    display: flex;
+    width: calc(100% / 3 - 15px);
+    flex-direction: column;
+    margin: 4px 0;
+}
+
+.input-field label {
+    font-size: 12px;
+    font-weight: 700;
+    color: #2e2e2e;
+}
+
+.personForm form .fields1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+form .fields1 .input-field1 {
+    display: flex;
+    width: 48%;
+    flex-direction: column;
+    margin: 4px 2;
+}
+
+.input-field1 label {
+    font-size: 12px;
+    font-weight: 700;
+    color: #2e2e2e;
+}
+
+.input-field1 input {
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+    height: 42px;
+    margin: 8px 0;
+}
+
+.personForm form .fields2 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+}
+
+form .fields2 .input-field2 {
+    display: flex;
+    width: 23%;
+    flex-direction: column;
+    margin: 5px 10px 5px 0;
+}
+
+.input-field2 label {
+    font-size: 12px;
+    font-weight: 700;
+    color: #2e2e2e;
+}
+
+.input-field2 input {
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+    height: 42px;
+}
+
+.input-field input {
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+    height: 42px;
+    margin: 8px 0;
+}
+
+.input-field input :focus,
+.input-field select:focus {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.13);
+}
+
+.input-field input[type="date"] {
+    color: #707070;
+}
+
+.input-field input[type="date"]:valid {
+    color: #333;
+}
+
+form .income .sourceIncome {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+form .income .category {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: 14px 0;
+}
+
+.income .category label {
+    display: flex;
+    align-items: center;
+}
+
+.income .category .dot {
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background: #d9d9d9;
+    border: 5px solid transparent;
+    transition: all 0.3s ease;
+}
+
+#dot-1:checked~.category label .one,
+#dot-2:checked~.category label .two {
+    border-color: #d9d9d9;
+    background: #9b59b6;
+}
+
+form input[type="radio"] {
+    display: none;
+}
+
+.submitBtn {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.submitBtn button {
+    flex-basis: 45%;
+    background: #0038FF;
+    color: #fff;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: backround 1s;
+}
+
+
+
