@@ -361,8 +361,6 @@ em{
 }
 .fa-star {
     color: white;
-    margin-top: 0px;
-    margin-left: 3px
 }
 .star {
     color: white;
@@ -384,6 +382,7 @@ em{
     border-radius: 30px;
     margin-top: 5px;
     margin-left: 6px;
+    text-align: center;
 }
 
 .ratingCard{
