@@ -332,59 +332,123 @@ em{
     justify-content: center;
     margin-top: 150px;
 }
-.pricedeets  {
-    display: flex;
-    justify-content: space-between;
-}
-.pricedeets .btn{
-    width: 100px;
-    height: 40px;
-    border-radius: 100px;
-    background-color: #003BEC;
-
-
-}
-
-.cars1 .view{
-    text-align: center;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #003BEC;
-    padding: 10px;
-    width: 500px;
-    border-radius: 50px;
-
-  
-}
-.button{
+.button{ 
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 100px;
     font-size: 24px
-    
+}
+.button .viewall{
+
+    text-align: center;
+    color: white;
+    background-color: #003BEC;
+    padding: 10px;
+    width: 500px;
+    border-radius: 50px;
+    font-size: 24px;
+
 }
 
-.img-top{
+/*------------*/
+.cards{
+    width: 384px;
+    height: 459px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 30px;
+}
+.fa-star {
+    color: white;
+    margin-top: 0px;
+    margin-left: 3px
+}
+.star {
+    color: white;
+    position: absolute;
+    height: 36px;
+    width: 62px;
+    backdrop-filter: blur(15px);
+    backdrop-filter: brightness(80%);
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    z-index: 1;
+}
+.roundStar{
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    background-color: #F8C633;
+    border-radius: 30px;
+    margin-top: 5px;
+    margin-left: 6px;
+}
+
+.ratingCard{
+    color: white;
+    position: absolute;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+.imgCard{
+    width: 384px;
+    height: 239px;
     overflow: hidden;
-    border-top-right-radius: 25px; 
-    border-top-left-radius: 25px; 
+    border-radius: 30px 30px 0 0;
+}
+.imgCardCar{
+    transition: transform .2s ease;
+}
+.imgCardCar:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.imgCard:hover .star {
+    animation: myfirst 1s 1;
+}
+@keyframes myfirst
+{
+    0%      {background:transparent;}
+    10%     {background:white;}
 }
 
-.img-top img{
- 
-  
-/*  add transition to the container  */
-  
-  transition: all .5s ease-in-out;
+.titleCards{
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-left: 30px;
 }
 
-.img-top:hover img{
-
-    transform: scale(1.2) rotate(0deg);
-   
-
+.descCards{
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 0px;
+    margin-left: 30px;
 }
+.btnCards{
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    width: 119px;
+    height: 52px;
+    background-color: blue;
+    border-radius: 30px;
+    border-color: transparent;
+    margin-top: -65px;
+    margin-left: 230px;
+}
+
+.btnCards:hover{
+    color: blue;
+    background-color: white;
+    border-color: blue;
+    cursor: pointer;
+}
+
 
 /* ----------------------------Motor--------------------------------------- */
 .section4{
@@ -392,11 +456,6 @@ em{
     padding: 0;
     width: 100%;
     height: 1110px;
-}
-
-.motor-contain{
-    display: flex;
-    flex-direction: column;
 }
 
 .paragraph{
