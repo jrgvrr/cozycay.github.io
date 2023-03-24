@@ -1,6 +1,13 @@
 *{
     font-family: "Montserrat";
 }
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
 .carsPage{
     background-image: url('../img/CarsPage/carsPageb1.jpg'),
                       url('../img/CarsPage/carsPagebg2.png');
@@ -10,7 +17,7 @@
                      100% 4461px;
     background-repeat: no-repeat;
     width: 100%;
-    height: 6986px;
+    height: 6010px;
 }
 
 .CPBlue1{
@@ -128,12 +135,6 @@
     cursor: pointer;
 }
 
-.center{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-
 .titleTxt{
     margin-top: 150px;
     color: black;
@@ -166,14 +167,14 @@
     margin-top: 30px;
 }
   
-li {
+.navCP{
     float: left;
-    margin-top: 2px;
-    margin-left: -20px;
-    margin-right: 22px;
+    margin-top: 0px;
+    margin-left: 5px;
+    margin-right: 0px;
 }
   
-li a {
+.navCP .navCPP{
     display: block;
     color: black;
     text-align: center;
@@ -184,10 +185,10 @@ li a {
     text-decoration: none;
 }
 
-li a:focus{
+.navCP .navCPP:focus{
     color: white;
     background-color: blue;
-    border-radius: 30px;
+    border-radius: 50px;
 }
 .circleSearch{
     width: 20px;
@@ -210,10 +211,10 @@ li a:focus{
 /*------------------CP cards------------------------------*/
 .containerCards{
     display: flex;
-    width: 1440px;
     flex-wrap: wrap;
+    width: 1440px;
+    height: 4344px;
     justify-content: center;
-    align-items: center;
 }
 .cards{
     width: 384px;
@@ -309,4 +310,233 @@ li a:focus{
     background-color: white;
     border-color: blue;
     cursor: pointer;
+}
+/*-- --------------------------------------------------------------SIGN UP-------------------------------------------------------------------- */
+
+.page3sec4{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 500px; 
+}
+
+.sec4{
+    display: flex;
+    direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.sign {
+    font-weight: 700;
+    font-size: 40px;
+    width: 750px;
+    margin-left: 15px;
+    margin-bottom: 0px;
+}
+.java {
+    color: rgb(0, 59, 236);
+}
+
+.text1 {
+    opacity: 60%;
+    color: rgb(12, 17, 31) 
+    font-family Poppins;
+    font-weight: 400;
+    font-size: 20px;
+    width: 550px;
+    margin-left: 15px;
+    top: 0px;
+}
+
+.email {
+    font-family: Poppins;
+    font-weight: 400;
+    size: 20px;
+    width: 370px;
+    border-radius: 23px;
+    padding: 15px;
+    margin-left: 15px;
+    margin: px;
+    border: none;
+    background-color: rgb(237, 237, 237);
+    margin-bottom: 20px;
+}
+.subscribe {
+    background: linear-gradient(135deg, #003BEC 0%, #016AC6 100%);
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    display: flex;
+    flex-direction: flow;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 14px 32px;
+    gap: 8px;
+    position: absolute;
+    border-radius: 32px; 
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.car {
+    position: absolute;
+    width: 556px;
+    height: 451;
+
+    margin-top: 140px;
+    margin-left: 550px;
+}
+/* --------------------------------Footer------------------------------------------ */
+
+footer{
+    width: 100%;
+    height: 733px;
+}
+
+footer .footer-container{
+    width: 100%;
+    height: 733px;
+    background: url('../img/pexels-torsten-dettlaff-70912\ \(1\)\ 1\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #003BEC;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+
+    gap: 50px;
+}
+
+.footer-container .header-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.header-container h2{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.header-container p{
+    width: 590px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.navigation-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 150px;
+    margin-bottom: 150px;
+
+}
+
+.navigation-container img{
+    width: 86px;
+    height: 66px;
+    margin-top: -20px;
+}
+
+.logo-contain{
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-btn{
+    margin-top: 50px;
+}
+
+.subcribe-btn{
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    color: #000;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.logo-main{
+    display: flex;
+}
+
+.logo-contain{
+    margin-top: -75px;
+}
+.logo-main h3{
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+.logo-contain p{
+    width: 253px;
+    font-size: 16px;
+    text-align: left;
+    font-weight: lighter;
+    color:#FFFFFF
+}
+
+.buy-contain{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.list-mode{
+    display: flex;
+    flex-direction: row;
+
+    gap: 100px;
+    margin-top: 40px;
+}
+
+.list-mode h3{
+    margin-bottom: 30px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.list-mode ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.list-mode li a{
+    color: #FFFFFF;
+}
+
+.list-mode p{
+    width: 275px;
+}
+
+.socials ul{
+    display: flex !important;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+.socials li{
+    font-size: 20px;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding: 5px;
 }
