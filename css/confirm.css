@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    scroll-behavior: smooth;
+    background: url('../img/motors/pexels-rangga-aditya-armien-235222\ 2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    width: 100%;
+    height: 124px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('../img/confirm/Rectangle\ 4114.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header img{
+    width: 150px;
+    height: 100px;
+}
+
+.sec1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background: url('../img/confirm/Rectangle\ 4114.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 734.81px; 
+
+}
+
+.sec1 .animation-cont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+    overflow: hidden;
+    
+}
+
+.animation-cont .tree{
+    width:497px;
+    height: 397px;
+    /* margin-left: 50px; */
+    /* display: none; */
+    position: relative;
+    left: 150px;
+    opacity: 1.0;
+    animation-name: animateTree;
+    animation-duration: 2s;
+    
+    
+}
+
+.animation-cont .car{
+    width: 301px;
+    height: 173px;
+    /* margin-top: 100px;
+    margin-left: 1000px; */
+    animation-name: animateCar;
+    animation-duration: 0.9s;
+    position: relative;
+    right: 250px;
+    top: 50px;
+
+
+}
+
+.submit-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.submit-cont p{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 25px;
+    opacity: 1.0;
+    animation-name: pAnimate;
+    animation-duration: 0.8s;
+}
+
+@keyframes pAnimate {
+    from{opacity: 0.0;
+    font-size: 12px;}
+    to{opacity: 1.0;
+     font-size: 25px;}
+}
+/* animation for car and tree */
+@keyframes animateTree{
+    from{opacity: 0.0;}
+    to{opacity: 1.0;}
+
+}
+
+@keyframes animateCar {
+    0%{position:relative;
+        right:-5000px;
+        top: 50px;}
+    50%{position:relative;
+            right:350px;
+            top: 50px;
+             transform: rotate(-15deg);}
+    100%{position:relative;
+            right:250px;}
+
+}
