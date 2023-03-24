@@ -242,38 +242,69 @@ body{
 }
 
 .motor-main .stars{
-    width: 80px;
-    height: 50px;
-    background: #dfdfdf;
+    width: 62px;
+    height: 36px;
+    /* background: #dfdfdf; */
+    backdrop-filter: brightness(80%);
     position:absolute;
-    left: 5px;
-    top:5px;
+    left: 10px;
+    top:10px;
     border-radius: 25px;
     display: flex;
     text-align: start;
     align-items: center;
     justify-content: start;
-    padding: 10px 10px;
-    gap: 5px;
+    padding: 5px 5px;
+
+    gap: 3px;
+    transition: 1s ease;
+   
 }
 
-.stars .yel{
-    width: 30px;
-    height: 30px;
-    background: #F8C633;
+.stars i{
+    background-color: #F8C633;
+    color: white;
+    font-size: 18px;
     text-align: center;
-    padding: 5px 0 0 0;
+    padding: 5px;
     border-radius: 50px;
 }
-
-.yel i{
-    color: white;
-}
 .stars h4{
-    font-size: 16px;
+    font-size: 13px;
     text-align: center;
     margin-top: 10px;
     font-weight: bold;
+    color: white;
+}
+
+.img-top{
+    overflow: hidden;
+    border-top-right-radius: 25px; 
+    border-top-left-radius: 25px; 
+}
+
+.img-top img{
+/*  add transition to the container  */
+  
+  transition: all .5s ease-in-out;
+}
+
+.img-top:hover img{
+
+    transform: scale(1.2) rotate(0deg);
+   
+
+}
+.img-top:hover .stars{
+   animation-name: starblink;
+   animation-duration: 0.6s;
+    
+}
+
+@keyframes starblink{
+
+    from {background:#fff;}
+    to{backdrop-filter: brightness(80%);}
 }
 
 .motor-main .card-title{
