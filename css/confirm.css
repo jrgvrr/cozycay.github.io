@@ -125,7 +125,7 @@ header img{
 
 .sec2{
     width: 100%;
-    height: 2039px;
+    height: 1500px;
     background: white;
     display: flex !important;
     flex-direction: column;
@@ -195,8 +195,46 @@ header img{
     font-weight: lighter;
 }
 /* ----------------------------------------------Principal Information----------------------------------------- */
-.personalInfo{
+.personalInfo {
     display: flex;
-    padding-left: 50px;
     
+}
+.personalInfo .form-control{
+border-radius: 0px !important;
+width: 332px !important;
+}
+.personalInfo .location{
+width: 507px !important;
+
+}
+.personalInfo .zip{
+width: 160px !important;
+}
+
+.form-group{
+    font-weight: bold;
+}
+.income{
+    display: flex;
+}
+.personalInfo .business{
+width: 507px !important;
+}
+.BusinessInfo {
+display: flex;
+
+}
+.BusinessInfo .form-control{
+width: 239px !important;
+}
+.personalInfo .comaker{
+    width: 418px !important;
+}
+.personalInfo .relation{
+width: 249px !important;
+}
+
+.ending{
+    padding-top: 50px;
+    width: 1080px;
 }
