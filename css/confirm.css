@@ -194,3 +194,9 @@ header img{
     font-size: 12px;
     font-weight: lighter;
 }
+/* ----------------------------------------------Principal Information----------------------------------------- */
+.personalInfo{
+    display: flex;
+    padding-left: 50px;
+    
+}
