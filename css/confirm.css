@@ -252,7 +252,19 @@ width: 249px !important;
     padding-top: 50px;
     width: 1080px;
 }
-
+.submit .btn1{
+    
+    text-align: center;
+    color: white;
+    background-color: #003BEC;
+    padding: 10px;
+    width: 150px;
+    border-radius: 50px;
+    font-size: 16px;
+    background: linear-gradient(111.69deg, #0038FF, #00D1FF); 
+    border: 0px;
+    
+}
 
 
 @media (max-width: 768px) {

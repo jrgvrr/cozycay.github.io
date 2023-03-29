@@ -140,6 +140,36 @@ width: 249px !important;
     padding-top: 50px;
     width: 1080px;
 }
+.submit{
+padding-top: 20px;
+display: flex;
+gap: 20px;
+    
+}
+.submit .btn1{
+    
+    text-align: center;
+    color: white;
+    background-color: #003BEC;
+    padding: 10px;
+    width: 100px;
+    border-radius: 50px;
+    font-size: 16px;
+    background: linear-gradient(111.69deg, #0038FF, #00D1FF); 
+    border: 0px;
+    
+}
+.submit .btn2{
+    text-align: center;
+    color: blue;
+    background-color: white;
+    padding: 10px;
+    width: 100px;
+    border-radius: 50px;
+    font-size: 16px;
+    border-color: blue;
+}
+
 
 
 
