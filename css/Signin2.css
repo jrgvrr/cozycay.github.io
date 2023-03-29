@@ -112,6 +112,9 @@ body {
   font-style: normal;
   font-weight: bold;
   line-height: 24px;
+  display: flex;
+  align-items: start;
+  margin-left: 10px;
 
   color: #000000;
 }
@@ -171,16 +174,19 @@ body {
   font-weight: bold;
   color: black;
 }
-.container20 {
-  width: 300px;
+.container21 p {
+  display: flex;
+  align-items: center;
+
+  width: 206px;
   height: 24px;
-  margin-left: 70px;
-  margin-top: 23px;
+  margin-left: -3px;
+  margin-top: -30px;
+}
+.stroong {
+  color: #000000;
 }
 
-.container20 strong {
-  color: black;
-}
 .intpass {
   background: white;
   width: 90%;
@@ -193,8 +199,7 @@ body {
 .klase {
   display: flex;
   gap: 5px;
-  margin-bottom: 0px;
-  margin-top: -5px;
+  margin-top: 0px;
 }
 .klase span {
   width: 141px;
@@ -235,4 +240,24 @@ body {
   margin-left: 10px;
   margin-top: 30px;
   color: #ffffff;
+}
+
+.container22 p {
+  position: relative;
+  left: 50px;
+  margin-top: 25px;
+}
+
+.container14 {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: start;
+  margin-left: -100px;
+}
+.container14 p {
+  width: 226px;
+  height: 24px;
+  margin-left: 100px;
+  margin-top: -1px;
 }
