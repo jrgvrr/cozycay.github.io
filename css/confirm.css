@@ -12,20 +12,23 @@ body{
     background-attachment: fixed;
 }
 
-header{
+.confirm-head{
     width: 100%;
     height: 124px;
     display: flex !important;
     align-items: center;
-    justify-content: center;
-    background: url('../img/confirm/Rectangle\ 4114.png');
+    justify-content: center !important;
+    /* background: url('../img/confirm/Rectangle\ 4114.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
+    background: transparent;
+    position: absolute;
 }
 
-header img{
-    width: 150px;
+.confirm-head img{
+    width: 150px ;
     height: 100px;
+    opacity: 1.0;
 }
 
 .sec1{
@@ -67,7 +70,7 @@ header img{
     
 }
 
-.animation-cont .car{
+.animation-cont .carA{
     width: 301px;
     height: 173px;
     /* margin-top: 100px;
@@ -125,31 +128,42 @@ header img{
 
 .sec2{
     width: 100%;
-    height: 1500px;
+    height: auto;
     background: white;
     display: flex !important;
-    flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
+    justify-content: center;
+
+    
 }
 
-.header-sec2{
+.sec2 .main-sec2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    /* padding: 20px 10px 20px 10px; */
+
+}
+
+.main-sec2 .header-sec2{
     margin-top: 10px;
     margin-bottom: 30px;
 }
 
-.header-sec2 p{
+.main-sec2 .header-sec2 p{
     font-weight: bold;
     font-size: 28px;
     
 }
 
-.unit-container .model-cont{
+.main-sec2 .unit-container .model-cont{
     display: flex;   
     gap: 150px;
 }
 
-.unit-header h2{
+.main-sec2 .unit-header h2{
     color:#003BEC;
     font-weight: bold;
     font-size: 24px;
@@ -172,11 +186,11 @@ header img{
     gap: 5px;
 }
 
-.unit-container .variant1 .form-control{
+.unit-container .variant1 .form-select{
     width: 200px;
 }
 
-.unit-container .variant2 .form-control{
+.unit-container .variant2 .form-select{
     width: 200px;
 }
 
@@ -186,7 +200,7 @@ header img{
     gap: 5px;
 }
 
-.model2 .model2-variant1 .form-control{
+.model2 .model2-variant1 .form-select{
     width: 500px;
 }
 
@@ -195,7 +209,7 @@ header img{
     font-weight: lighter;
 }
 /* ----------------------------------------------Principal Information----------------------------------------- */
-.personalInfo {
+.main-sec2  .personalInfo {
     display: flex;
     
 }
@@ -214,13 +228,13 @@ width: 160px !important;
 .form-group{
     font-weight: bold;
 }
-.income{
+.main-sec2 .income{
     display: flex;
 }
 .personalInfo .business{
 width: 507px !important;
 }
-.BusinessInfo {
+.main-sec2 .BusinessInfo {
 display: flex;
 
 }
@@ -237,4 +251,73 @@ width: 249px !important;
 .ending{
     padding-top: 50px;
     width: 1080px;
+}
+
+
+
+@media (max-width: 768px) {
+
+    .main-sec2 .unit-container .model-cont{
+        display: flex;   
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        gap: 20px;
+        
+    }
+
+    .unit-header h2{
+        text-align: center;
+    }
+
+    .main-sec2 .unit-container .model-cont{
+        display: flex;   
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        gap: 20px;
+        padding-left: 40px;
+    }
+
+    .main-sec2 .personalInfo{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .personalInfo .form-group{
+        padding-left: 20px;
+    }
+
+    .main-sec2 .BusinessInfo{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+
+    }
+
+    .BusinessInfo .form-group{
+        padding-left: 20px !important;
+    }
+
+    .main-sec2 .come{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main-sec2 .ending {
+        width: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px 0px 0 50px;
+    }
+    
+}
+
+@media (max-width: 480px) {
+    
 }
