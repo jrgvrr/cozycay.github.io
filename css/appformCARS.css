@@ -23,6 +23,7 @@
     align-items: center;
     justify-content: center;
 
+
     
 }
 
@@ -141,9 +142,11 @@ width: 249px !important;
     width: 1080px;
 }
 .submit{
-padding-top: 20px;
+
 display: flex;
 gap: 20px;
+margin-top: 20px;
+margin-bottom: 20px;
     
 }
 .submit .btn1{
