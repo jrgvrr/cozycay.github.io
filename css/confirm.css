@@ -186,11 +186,11 @@ body{
     gap: 5px;
 }
 
-.unit-container .variant1 .form-control{
+.unit-container .variant1 .form-select{
     width: 200px;
 }
 
-.unit-container .variant2 .form-control{
+.unit-container .variant2 .form-select{
     width: 200px;
 }
 
@@ -200,7 +200,7 @@ body{
     gap: 5px;
 }
 
-.model2 .model2-variant1 .form-control{
+.model2 .model2-variant1 .form-select{
     width: 500px;
 }
 
