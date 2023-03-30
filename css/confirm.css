@@ -295,7 +295,8 @@ width: 249px !important;
 .personalInfo1{
     display: flex;
     gap: 60px;
-    width: 100%;
+    position: relative;
+    left: 0px;
 }
 
 .personalInfo1 .form-control{
@@ -353,7 +354,7 @@ width: 249px !important;
     .personalInfo1{
         display: flex;
         gap: 60px;
-        width: 754px;
+        
     }
     
     .personalInfo1 .form-control{
