@@ -130,9 +130,7 @@ body{
     width: 100%;
     height: auto;
     background: white;
-    display: flex !important;
-    align-items: center;
-    justify-content: center;
+
 
     
 }
@@ -140,10 +138,10 @@ body{
 .sec2 .main-sec2{
     display: flex;
     flex-direction: column;
+
     justify-content: center;
     align-items: center;
-    width: fit-content;
-    /* padding: 20px 10px 20px 10px; */
+    width: 100%;
 
 }
 
@@ -156,6 +154,15 @@ body{
     font-weight: bold;
     font-size: 28px;
     
+}
+
+.main-sec2 .unit-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
 }
 
 .main-sec2 .unit-container .model-cont{
@@ -211,11 +218,12 @@ body{
 /* ----------------------------------------------Principal Information----------------------------------------- */
 .main-sec2  .personalInfo {
     display: flex;
+    gap: 30px;
     
 }
 .personalInfo .form-control{
-border-radius: 0px !important;
-width: 332px !important;
+    border-radius: 0px !important;
+    width: 332px !important;
 }
 .personalInfo .location{
 width: 507px !important;
@@ -236,7 +244,16 @@ width: 507px !important;
 }
 .main-sec2 .BusinessInfo {
 display: flex;
+}
 
+.BusinessInfo .bus1{
+    display: flex;
+    flex-direction: row;
+}
+
+.BusinessInfo .bus2{
+    display: flex;
+    flex-direction: row;
 }
 .BusinessInfo .form-control{
 width: 239px !important;
@@ -266,70 +283,264 @@ width: 249px !important;
     
 }
 
+.main-sec2 .come{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    position: relative;
+    left: -375px;
+}
 
-@media (max-width: 768px) {
+.personalInfo1{
+    display: flex;
+    gap: 60px;
+    width: 100%;
+}
 
+.personalInfo1 .form-control{
+    width: 496px;
+}
+
+@media (max-width: 1180px){
     .main-sec2 .unit-container .model-cont{
-        display: flex;   
-        flex-direction: column;
+        gap: 100px;
+    }
+
+    .model2  .model2-variant1 .form-select{
+        width: 250px;
+    }
+
+    .personalInfo .form-control{
+        width: 230px !important;
+    }
+
+    .main-sec2 .BusinessInfo{
+        display: flex;
+        justify-content: start;
         align-items: start;
-        justify-content: center;
-        gap: 20px;
+        gap:100px;
+    }
+
+    .BusinessInfo .bus1{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .BusinessInfo .bus2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .BusinessInfo .form-group{
+        padding-left: 0 !important;
+    }
+
+    .BusinessInfo .form-control{
+        width: 330px !important;
+    }
+
+    .ending{
+        width: 700px;
+    }
+
+    .main-sec2 .come{
         
+        position: relative;
+        left: -220px;
     }
 
-    .unit-header h2{
-        text-align: center;
+    .personalInfo1{
+        display: flex;
+        gap: 60px;
+        width: 754px;
     }
+    
+    .personalInfo1 .form-control{
+        width: 350px;
+    }
+}
 
+@media (max-width: 800px){
     .main-sec2 .unit-container .model-cont{
-        display: flex;   
-        flex-direction: column;
-        align-items: start;
-        justify-content: center;
-        gap: 20px;
-        padding-left: 40px;
+        gap: 50px;
     }
 
     .main-sec2 .personalInfo{
+        gap: 10px;
+    }
+
+    .main-sec2 .come{
+        
+        position: relative;
+        left: -198px;
+    }
+
+    .main-sec2 .BusinessInfo{
+        gap:50px;
+    }
+
+    .personalInfo1{
+        display: flex;
+        gap: 60px;
+        width: 710px;
+    }
+    
+    .personalInfo1 .form-control{
+        width: 325px;
+    }
+}
+
+@media (max-width: 740px){
+    .main-sec2 .unit-container .model-cont{
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        justify-content: center;
+        gap: 10px;
     }
-    .personalInfo .form-group{
-        padding-left: 20px;
+
+    .unit-container .model1{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .unit-container .model1 .form-select{
+        width: 500px;
+    }
+    .main-sec2 .personalInfo {
+        display: flex;
+        flex-direction: column;
+    }
+    .personalInfo .form-control{
+        width: 500px !important;
+    }
+
+    .main-sec2 .come{
+        
+        position: relative;
+        left: -98px;
     }
 
     .main-sec2 .BusinessInfo{
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        justify-content: center;
-
+        justify-content: start;
+        align-items: start;
+        gap:10px;
     }
 
-    .BusinessInfo .form-group{
-        padding-left: 20px !important;
+    .BusinessInfo .bus1 .form-control{
+        width: 500px !important;
+    }
+    .BusinessInfo .bus2 .form-control{
+        width: 500px !important;
+    }
+
+    .ending{
+        width: 500px;
+    }
+
+    .personalInfo1{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 510px;
+    }
+    
+    .personalInfo1 .form-control{
+        width: 510px !important;
+    }
+
+   
+}
+
+@media (max-width: 540px){
+
+    .main-sec2 .header-sec2{
+        text-align: center;
+    }
+    .main-sec2 .unit-header{
+        width: 350px;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        text-align: left;
+    }
+    .unit-container .model1 .form-select{
+        width: 350px;
+    }
+
+    .personalInfo .form-control{
+        width: 350px !important;
+    }
+
+    .BusinessInfo .bus1 .form-control{
+        width: 350px !important;
     }
 
     .main-sec2 .come{
+        
+        position: relative;
+        left: -20px;
+    }
+
+    .ending{
+        width: 350px;
+    }
+
+
+    .personalInfo1{
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .main-sec2 .ending {
-        width: 500px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 0px 0px 0 50px;
+        gap: 10px;
+        width: 358px;
     }
     
+    .personalInfo1 .form-control{
+        width: 350px !important;
+    }
+
+    .main-sec2 .BusinessInfo{
+        width: 350px;
+    }
+    .BusinessInfo .bus2 .form-control{
+        width: 350px !important;
+    }
+
+    .animation-cont .carA{
+        width: 250px;
+        height: 100px;
+        animation-name: animateCar;
+        animation-duration: 0.9s;
+        position: relative;
+        right: 180px;
+        top: 42px;
+    }
+
+    .animation-cont .tree{
+        width: 540px;
+        height: 265px;
+        position: relative;
+        left: 85px;
+    }
+
+    .submit-cont p{
+        font-size: 18px;
+    }
+
+    @keyframes animateCar {
+        0%{position:relative;
+            right:-5000px;
+            top: 42px;}
+        50%{position:relative;
+                right:250px;
+                top: 42px;
+                 transform: rotate(-15deg);}
+        100%{position:relative;
+                right:180px;
+                top: 42px;}
+    
+    }
+
 }
 
-@media (max-width: 480px) {
-    
-}
