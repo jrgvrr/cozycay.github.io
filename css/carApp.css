@@ -195,89 +195,101 @@ header img {
 
 
 /*--------------------DESCRIPTION-----------*/
+.cont{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.descc{
+    width: 1271px;
+    height: 1300px;
+    padding: 50px;
+   
+}
 
-#h {
+#h{
     font-weight: bold;
-    font-size: 35px;
+    font-size: 60px;
+}
+
+#h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#p1{
+    font-weight: normal;
+    font-size: 20px;
 }
 
 .searchBar {
-    padding-left: 650px;
-}
-
-#search {
-    width: 250px;
+    float: right;
+    width: 364px;
+    height: 42px;
+    border-radius: 10px;
+    background-color: #F0EFEF;
+    border-color: transparent;
     font-size: 15px;
-    margin: 5px;
-    text-align: left;
-    border: 1px solid #ddd;
-    border-radius: 30px 30px 30px 30px;
+    padding-left: 30px;
+
 }
 
 .desc {
+    height: 548px;
+    width: 633px;
     float: right;
-    font-size: 15px;
-    text-align: justify;
-    padding-left: 700px;
-    padding-right: 95px;
-    word-wrap: break-word;
+    font-size: 20px;
+    text-align: justify; 
+    margin-top: 40px;
 }
 
 #myBtn {
     border: none;
     color: #0038FF;
+    background-color: transparent;
 }
 
-#exampleA {
-    width: 100%;
-}
+
 
 table,
 td,
 th {
-    border: 2px #2b2b2b solid;
+    border-spacing: 20px;
+    border: solid 1px #D9D9D9;
 }
 
 #var1st {
     font-size: 15px;
 }
 
-table {
-    width: 500px;
-}
-
 #example1 {
     float: left;
-    margin-left: 100px;
-    margin-top: -870px;
+    width: 460px;
+    height: 1168px;
 }
 
 tr,
 td {
-    padding-left: 50px;
-    margin: 20px;
     border: none;
     font-size: 13px;
 }
 
-.specs {
-    padding-left: 150px;
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
 
 .specs .btn {
-    border-radius: 100px;
-    width: 200px;
-    height: 50px;
-    font-size: 15px;
+    width: 187px;
+    height: 52px;
+    border-radius: 30px;
+    font-size: 16px;
 }
+
 
 
 /*-------------------------------RATING--------------------------------*/
 
 .heading {
-    margin-left: 35px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .fa {
@@ -289,36 +301,23 @@ td {
 }
 
 .rating {
-    border: black;
-    border-style: solid;
-    border-width: thin;
-}
-
-.checked {
-    color: orange;
+    border: solid 1px black;
+    width: 633px;
+    height: 464px;
+    padding: 20px;
 }
 
 
 /* Three column layout */
 
 .side {
-    float: left;
-    padding-left: 50px;
-    padding-top: 10px;
-    margin-bottom: 15px;
+    float: right;
+    padding-right: 20px;
 }
 
-.middle {
-    margin-top: 10px;
-    float: left;
-    width: 70%;
-}
-
-
-/* Place text to the right */
-
-.right {
-    text-align: right;
+.middle{
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 
@@ -334,44 +333,42 @@ td {
 /* The bar container */
 
 .bar-container {
-    width: 100%;
-    background-color: #f1f1f1;
-    text-align: center;
-    color: white;
+    width: 550px;
+    height: 8px;
+    background-color: #D9D9D9;
+    
 }
-
 
 /* Individual bars */
 
 .bar-5 {
     width: 95%;
-    height: 18px;
+    height: 8px;
     background-color: #003BEC;
 }
 
 .bar-4 {
     width: 100%;
-    height: 18px;
+    height: 8px;
     background-color: #003BEC;
 }
 
 .bar-3 {
     width: 95%;
-    height: 18px;
+    height: 8px;
     background-color: #003BEC;
 }
 
 .bar-2 {
     width: 100%;
-    height: 18px;
+    height: 8px;
     background-color: #003BEC;
 }
 
 .bar-1 {
     width: 95%;
-    height: 18px;
+    height: 8px;
     background-color: #003BEC;
-    margin-bottom: 10px;
 }
 
 
