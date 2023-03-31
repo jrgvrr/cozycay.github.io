@@ -143,6 +143,8 @@ body{
     align-items: center;
     width: 100%;
 
+    padding: 20px !important;
+
 }
 
 .main-sec2 .header-sec2{
