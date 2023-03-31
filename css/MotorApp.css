@@ -10,10 +10,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+	display:block;
 }
 
-
-/* Top navigation bar */
 
 header {
     width: 100%;
@@ -22,7 +21,6 @@ header {
     justify-content: space-between;
     position: fixed;
     transition: all 0.5s;
-    /* border-bottom: 2px solid #d1d1d1; */
     background: #FFFFFF;
     height: 124px;
     z-index: 99;
@@ -32,10 +30,6 @@ header {
     margin: 0;
     padding: 0;
 }
-
-
-/* Logo Image */
-
 header img {
     width: 130px;
     height: 100px;
@@ -79,10 +73,6 @@ header img {
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
-
-/* Button Login */
-
 .btn-login {
     display: flex;
     border-radius: 100px;
@@ -101,10 +91,6 @@ header img {
     font-size: 18px;
     color: #003BEC;
 }
-
-
-/*----------------Carousel----------------------- */
-
 .section2 {
     margin: auto;
     width: 100%;
@@ -133,7 +119,6 @@ header img {
 
 .carousel-control-next,
 .carousel-control-prev
-/*, .carousel-indicators */
 
 {
     filter: invert(100%);
@@ -192,6 +177,7 @@ header img {
     padding-left: 50px;
     padding-top: 50px;
 }
+<<<<<<< HEAD:css/carApp.css
 
 
 /*--------------------DESCRIPTION-----------*/
@@ -208,6 +194,9 @@ header img {
 }
 
 #h{
+=======
+#h {
+>>>>>>> 7cb86baa16d2e1f43911cc390cc4191899a9f2ed:css/MotorApp.css
     font-weight: bold;
     font-size: 60px;
 }
@@ -281,11 +270,14 @@ td {
     border-radius: 30px;
     font-size: 16px;
 }
+<<<<<<< HEAD:css/carApp.css
 
 
 
 /*-------------------------------RATING--------------------------------*/
 
+=======
+>>>>>>> 7cb86baa16d2e1f43911cc390cc4191899a9f2ed:css/MotorApp.css
 .heading {
     margin-left: 20px;
     font-size: 20px;
@@ -306,31 +298,31 @@ td {
     height: 464px;
     padding: 20px;
 }
-
-
-/* Three column layout */
-
 .side {
     float: right;
     padding-right: 20px;
 }
 
+<<<<<<< HEAD:css/carApp.css
 .middle{
     margin-top: 20px;
     margin-left: 20px;
+=======
+.middle {
+    margin-top: 10px;
+    float: left;
+    width: 70%;
 }
-
-
-/* Clear floats after the columns */
+.right {
+    text-align: right;
+>>>>>>> 7cb86baa16d2e1f43911cc390cc4191899a9f2ed:css/MotorApp.css
+}
 
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
-
-
-/* The bar container */
 
 .bar-container {
     width: 550px;
@@ -339,8 +331,11 @@ td {
     
 }
 
+<<<<<<< HEAD:css/carApp.css
 /* Individual bars */
 
+=======
+>>>>>>> 7cb86baa16d2e1f43911cc390cc4191899a9f2ed:css/MotorApp.css
 .bar-5 {
     width: 95%;
     height: 8px;
@@ -370,14 +365,10 @@ td {
     height: 8px;
     background-color: #003BEC;
 }
-
-
-/*-----------------APPLICATION FORM---------------------------------*/
-
 .formLeft {
     float: left;
     width: 300px;
-    height: 56;
+    height: 70px;
     font-size: 15px;
 }
 
@@ -398,8 +389,8 @@ td {
 
 .formRight {
     float: right;
-    width: 253px;
-    height: 56;
+    width: 300px;
+    height: 70px;
     font-size: 15px;
 }
 
@@ -408,11 +399,10 @@ td {
 }
 
 .reqRight {
-    margin-left: 100px;
-    margin-top: -30px;
+   
     float: right;
-    width: 253px;
-    height: 56;
+    width: 300px;
+    height: 70px;
     font-size: 15px;
 }
 
@@ -421,7 +411,7 @@ td {
     margin-top: -100px;
     max-width: 700px;
     width: 100%;
-    max-width: 900px;
+    max-width: 1800px;
     width: 100%;
     border-radius: 6px;
     background-color: #fff;
@@ -611,7 +601,7 @@ form input[type="radio"] {
 
 .submitBtn {
     margin-top: 30px;
-    width: 100%;
+    width: 30%;
     display: flex;
     justify-content: space-between;
     font-size: 15px;
@@ -639,10 +629,6 @@ form input[type="radio"] {
     color: #003BEC;
     font-size: 15px;
 }
-
-
-/* -----------------------------CARS---------------------------------------------------------------*/
-
 .section3 {
     width: 100%;
     height: 550px;
@@ -650,7 +636,6 @@ form input[type="radio"] {
 
 .cay {
     position: absolute;
-    /*top: 1969px; my position*/
     width: 100%;
     height: 1110px;
 }
@@ -725,10 +710,6 @@ em {
 .img-top:hover img {
     transform: scale(1.2) rotate(0deg);
 }
-
-
-/*-- --------------------------------------SIGN UP----------------------------------------- */
-
 .page3sec4 {
     margin: 0;
     padding: 0;
@@ -811,10 +792,6 @@ em {
     margin-top: 140px;
     margin-left: 550px;
 }
-
-
-/* --------------------------------Footer------------------------------------------ */
-
 footer {
     width: 100%;
     height: 100%;
