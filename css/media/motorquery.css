@@ -1,0 +1,172 @@
+@media (max-width: 1200px){
+
+    .calc-main{
+        width: 1050px;
+        gap: 30px;
+        padding: 20px 30px 80px 30px;
+    }
+
+    .form-select{
+        width: 450px;
+    }
+   
+}
+
+@media (max-width: 1050px){
+    .calc-main{
+        width: 950px;
+    }
+}
+
+@media (max-width: 960px){
+    .calc-main{
+        width: 850px;
+    }
+    .form-select{
+        width: 350px;
+    }
+}
+
+@media (max-width: 960px){
+    .calc-main{
+        width: 800px;
+    }
+    .form-select{
+        width: 250px;
+    }
+
+    .plan-container p{
+        width: 300px;
+    }
+}
+
+
+@media (max-width: 800px){
+    .calc-main{
+        width: 620px;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .plan-container{
+        margin-top:0px;
+        margin-left: -40px;
+    }
+
+    .form-select{
+        width: 490px;
+    }
+
+    .plan-container h1 {
+        font-weight: bold;
+        width: 300px;
+    }
+
+    .container-text1 p{
+        width: 680px;
+    }
+
+    .plan-container .btnPlan{
+        position: relative;
+        left: 33px;
+    }
+
+    .motors-nav{
+        width: 530px;
+    }
+    .nav-motors .nav-menu1{
+        gap: 30px;
+    }
+    
+}
+@media (max-width:650px) {
+    .calc-main{
+        width: 550px;
+
+    }
+
+    .bg-motors .calc-header{
+        width: 490px;
+    }
+
+    .plan-container p{
+        width: 450px;
+    }
+
+
+    .container-text1 p{
+        width: 590px;
+    }
+}
+
+@media (max-width:630px){
+    .motors-nav{
+        position: relative;
+        left: -1000px;  /*-10*/
+        top:0px;
+        height: 350px;
+        max-width: 200px;
+        z-index: 99;
+
+
+    }
+
+    .motor-main{
+        margin: -250px auto 0;
+        
+    }
+
+    
+    .nav-motors .nav-menu1{
+        flex-direction: column;
+    }
+    #filter{
+        visibility: visible;
+        z-index: 99;
+    }
+
+    #aligner{
+        visibility: hidden;
+        z-index: 99;
+    }
+
+
+    .search-container{
+        position: relative;
+        left: -55px;
+    }
+}
+
+
+@media (max-width:570px){
+    .calc-main{
+        width: 475px;
+
+    }
+
+   
+    .form-select{
+        width: 390px;
+    }
+
+    .plan-container{
+        margin-left: 32px;
+    }
+
+    .plan-container .btnPlan{
+        
+        left: -14px;
+    }
+
+    .plan-container p{
+        width: 400px;
+    }
+
+    .container-text1 .headText{
+        font-size: 30px;
+    }
+
+    .container-text1 p{
+        width: 500px;
+    }
+}
