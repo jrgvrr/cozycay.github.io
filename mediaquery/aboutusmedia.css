@@ -72,7 +72,6 @@
 }
 
 @media (max-width: 700px){
-
 .market img{
     width: 30%;
 }  
@@ -82,15 +81,13 @@
 }
 .market p{
     font-size: 10px;
-}
-}
+}}
 
 @media (max-width: 500px){
-  .market{
+.market{
     flex-direction: column;
     align-items: center;
-  }
+}
   .market img{
     width: 80%;
-  }
-}
+}}
