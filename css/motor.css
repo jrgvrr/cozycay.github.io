@@ -30,7 +30,6 @@ body {
   align-items: center;
 
   gap: 35px;
-
 }
 
 .bg-motors .calc-header {
@@ -166,8 +165,6 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-
-
 .nav-motors .nav-menu1 {
   list-style: none;
   display: flex !important;
@@ -197,18 +194,18 @@ body {
   padding-right: 5px;
 }
 
-#filter{
+#filter {
   position: relative;
   left: -50px;
-  
+
   top: 5px;
   visibility: hidden;
 }
 
-#aligner{
+#aligner {
   position: relative;
   left: -95px;
-  
+
   top: 15px;
   visibility: hidden;
 }
@@ -330,4 +327,3 @@ body {
   margin-top: -10px;
   padding-top: 12px;
 }
-
