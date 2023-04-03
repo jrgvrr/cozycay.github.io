@@ -17,8 +17,8 @@ header{
     width: 100%;
     display: flex !important;
     align-items: center;
-    justify-content: space-between;
-    position: fixed;
+    justify-content: space-evenly;
+
     transition: all 0.5s;
     /* border-bottom: 2px solid #d1d1d1; */
     background: #FFFFFF;
@@ -29,8 +29,14 @@ header{
 .header-nav{
     margin: 0;
     padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 145px;
 
 }
+
+
 
 /* Logo Image */
 header img{
@@ -38,16 +44,24 @@ header img{
     height: 100px;
 }
 
+.header-nav{
+    display: flex;
+    background: transparent;
+    
+}
+
 .header-nav .brand{  
     padding-top: 0px;
     display: flex;
+
 }
 
 /* Navigation menu */
 .header-nav .nav-menu{
-    list-style: none;
-    display: flex; 
-    gap: 50px;
+    list-style: none;  
+    display: flex !important;
+    flex-direction: row;
+    gap:50px;
     
 }
 
@@ -80,7 +94,7 @@ header img{
 }
 
 /* Button Login */
-.btn-login{
+.header-nav .btn-login{
     display: flex;
     border-radius: 100px;
     height: 60px;
@@ -100,6 +114,12 @@ header img{
     color: #003BEC;
       
 }
+
+.ham{
+    display: none;
+}
+
+
 
 
 /* --------------------------Intro Section-------------------------------- */
