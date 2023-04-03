@@ -2,92 +2,100 @@
 /* -------------------managing team---------------------- */
 @media (max-width: 1200px){
 .mngtext h1{
+    text-align: center;
+    padding-top: 30px;
     font-size: 50px; 
- }
+     font-weight: bold;
+}
 
 .mngtext p{
     font-size: 14px;
+    text-align: center;
  }
-.july{
-    width: 200px;
-    height: 210px;
-    margin: 10px;
-}
-.july img{
-    padding-top: 20px;
-    width: 60%;
-}
-.people h1{
-    font-size: 12px;
-}
-.people p{
-    font-size: 10px; 
-}
-}
 
-@media (max-width: 600px){
-.mngtext h1{
-    font-size: 20px; 
-}
-.mngtext p{
-    font-size: 8px;
-}
-.people{
-    padding-inline: 10px;
-    flex-direction: column;
-    align-items: center;
-}
-.july{
-    width: 200px;
-    height: 200px;
-    margin: 10px;
-}
-.july img{
-    padding-top: 20px;
-    width: 60%;
-}
-.people h1{
-    font-size: 12px;
-}
-.people p{
-    font-size: 8px; 
-}
-}
+    
+    .july{
+        width: 200px;
+        height: 210px;
+        margin: 10px;
+    }
+    
+    .july img{
+        display: block;
+        margin: auto;
+        padding-top: 20px;
+        width: 60%;
+      }
+    
+    .people h1{
+        padding-top: 10px;
+        margin-bottom: 0;
+        text-align: center;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .people p{
+        font-size: 10px; 
+        color: blue; 
+        font-weight: bold; 
+        text-align: center;
+    
+    }
+    }
 
-/* -------------------------MARKET FACILATOR------------------------------------------- */
-@media (max-width: 1000px){
-.page3sec3{
-    height: auto;
-}
-.market img{
-    width: 50%;
-}  
-.market h1{
-    font-size: 20px; 
-    font-weight: bold
-}
-.market p{
-    font-size: 12px;
-}
-}
-
-@media (max-width: 700px){
-.market img{
-    width: 30%;
-}  
-.market h1{
-    font-size: 16px; 
-    font-weight: bold
-}
-.market p{
-    font-size: 10px;
-}}
-
-@media (max-width: 500px){
-.market{
-    flex-direction: column;
-    align-items: center;
-}
-  .market img{
-    width: 80%;
-}}
+    @media (max-width: 600px){
+        .page3sec2{
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: auto;
+            opacity: 0.8;
+            padding-bottom: 30px;
+        }
+        .mngtext h1{
+            text-align: center;
+            padding-top: 30px;
+            font-size: 20px; 
+            color: white; 
+            font-weight: bold;
+        }
+        
+        .mngtext p{
+            color: white; 
+            font-size: 8px;
+            text-align: center;
+         }
+        
+            .people{
+                padding-inline: 10px;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .july{
+                width: 200px;
+                height: 200px;
+                margin: 10px;
+            }
+            .july img{
+                display: block;
+                margin: auto;
+                padding-top: 20px;
+                width: 60%;
+              }
+            
+            .people h1{
+                padding-top: 10px;
+                margin-bottom: 0;
+                text-align: center;
+                font-size: 12px;
+                font-weight: bold;
+            }
+            .people p{
+                font-size: 8px; 
+                font-weight: bold; 
+                text-align: center;
+            
+            }
+            }
