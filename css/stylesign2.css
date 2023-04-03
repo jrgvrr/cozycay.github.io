@@ -1,0 +1,79 @@
+@media (max-width: 916px) {
+  .container13 {
+    display: none;
+  }
+  .container11 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 700px;
+  }
+}
+@media (max-width: 780px) {
+  .container11 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+  }
+}
+@media (max-width: 616px) {
+  .container11 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+  }
+}
+@media (max-width: 518px) {
+  .container11 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+  }
+  .container14 {
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    margin-left: -72px;
+  }
+  .entemail {
+    width: 350px;
+    height: 60px;
+    margin-left: 20px;
+  }
+  .intpass {
+    width: 350px;
+    height: 60px;
+    margin-left: 20px;
+  }
+  .entpass {
+    height: 40px;
+  }
+  .container16 p {
+    margin-left: 22px;
+  }
+  .container17 input {
+    width: 357px;
+    margin-left: 20px;
+  }
+  .container18 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .container19 {
+    margin-left: 0px;
+  }
+  .container22 p {
+    margin-left: -98px;
+  }
+  .klase p {
+    width: 120px;
+  }
+  .klase span {
+    display: none;
+  }
+}
