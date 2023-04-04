@@ -1,144 +1,206 @@
-@media (max-width: 1180px){
-    header{
-        justify-content: space-between;
-    }
-    .header-nav{
-        gap: 20px;
-    }
+@media (max-width: 1180px) {
+  header {
+    justify-content: space-between;
+  }
+  .header-nav {
+    gap: 20px;
+  }
 
-    .header-nav .nav-menu{
-        display: flex !important;
-        flex-direction: row;
-        gap: 30px;
-    }
-    
-    .header-nav li a{
-        padding: 0px;
-    }
-    
-    .navigation-container{
-        gap: 30px;
-    }
-    .logo-contain{
-        margin-top: -100px;
-    }
+  .header-nav .nav-menu {
+    display: flex !important;
+    flex-direction: row;
+    gap: 30px;
+  }
 
-    .logo-contain p{
-        position: relative;
-        left: 30px;
-    }
+  .header-nav li a {
+    padding: 0px;
+  }
 
-    .list-mode{
-        gap:30px;
-    }
+  .navigation-container {
+    gap: 30px;
+  }
+  .logo-contain {
+    margin-top: -100px;
+  }
 
-    .list-mode p{
-        width: 180px;
-    }
+  .logo-contain p {
+    position: relative;
+    left: 30px;
+  }
 
-}
-@media (max-width: 800px){
+  .list-mode {
+    gap: 30px;
+  }
 
-    .header-nav{
-        width:100%;
-        height: 100%;
-        background: transparent;
-        margin: 0;
-        position: absolute;
-        top:0px;
-        left: -1000px;
-       
-        
-    }
-    .header-nav .nav-menu{
-        background: white;
-        
-        min-width: 100%;
-        min-height: 100vh;
-        position: absolute;
-        top: 120px;
-        left: 0px;
-        flex-direction: column;
-        padding: 50px;
-        
-    }
-
-    .ham{
-        display: flex;
-        flex-direction: row;
-    }
-
-    #hamList{
-        position: relative;
-        left: 70px;
-    }
-    #hamX{
-        position: relative;
-        left: -20px;
-        visibility: hidden;
-    }
-
-    .header-nav .btn-login{
-        
-        position: absolute;
-        top: 415px;
-        left: 0px;
-        height: 60px;
-        width: 300px;
-    
-    }
-
-    .navigation-container{
-        flex-direction: column;
-    }
-
-    .logo-contain{
-        margin-top: 40px;
-    }
-
-    .list-mode{
-        gap:100px;
-    }
+  .list-mode p {
+    width: 180px;
+  }
+  .div1 {
+    margin-left: -150px;
+  }
 }
 
-@media (max-width: 740px){
-
-    .header-container h2{
-        font-size: 32px;
-    }
-    .header-container p{
-        width: 490px;
-    }
-    .list-mode{
-        gap:50px;
-    }
+@media (max-width: 930px) {
+  .div1 .sign {
+    width: 580px;
+  }
 }
 
-@media (max-width: 540px){
+@media (max-width: 920px) {
+  .div1 {
+    margin-left: -165px;
+  }
+  .div1 .sign {
+    font-size: 24px;
+  }
+  .div1 .text1 {
+    font-size: 16px;
+  }
 
-    .header-container h2{
-        font-size: 24px;
-        text-align: center;
-    }
+  .div1 .car {
+    width: 380px;
+    height: 220px;
+    margin-left: 570px;
+    margin-top: 90px;
+  }
+}
 
-    .header-container p{
-        width: 290px;
-    }
+@media (max-width: 860px) {
+  .sign {
+    font-size: 18px;
+  }
+  .text1 {
+    width: 400px;
+  }
 
-    .navigation-container{
-        align-items: flex-start;
-        margin-left: 0px;
-        gap: 0px;
-    }
-    .list-mode{
-        flex-direction: column;
-        gap:20px;
-    }
+  .car {
+    margin-left: 430px;
+  }
+}
+@media (max-width: 800px) {
+  .header-nav {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    margin: 0;
+    position: absolute;
+    top: 0px;
+    left: -1000px;
+  }
+  .header-nav .nav-menu {
+    background: white;
 
-    .list-mode h3{
-        font-size: 24px;
-    }
-    .list-mode ul{
-        padding-left: 20px !important;
-    }
+    min-width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 120px;
+    left: 0px;
+    flex-direction: column;
+    padding: 50px;
+  }
+
+  .ham {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #hamList {
+    position: relative;
+    left: 70px;
+  }
+  #hamX {
+    position: relative;
+    left: -20px;
+    visibility: hidden;
+  }
+
+  .header-nav .btn-login {
+    position: absolute;
+    top: 415px;
+    left: 0px;
+    height: 60px;
+    width: 300px;
+  }
+
+  .navigation-container {
+    flex-direction: column;
+  }
+
+  .logo-contain {
+    margin-top: 40px;
+  }
+
+  .list-mode {
+    gap: 100px;
+  }
+}
+
+@media (max-width: 740px) {
+  .header-container h2 {
+    font-size: 32px;
+  }
+  .header-container p {
+    width: 490px;
+  }
+  .list-mode {
+    gap: 50px;
+  }
+
+  .div1 {
+    margin-left: 15px;
+  }
+  .div1 .car {
+    display: none;
+  }
+}
+@media (max-width: 680px) {
+  .div1 {
+    margin-left: 15px;
+  }
+}
+
+@media (max-width: 610px) {
+  .div1 {
+    margin-left: 15px;
+  }
+
+  .div1 .sign {
+    width: 380px;
+  }
+}
+
+@media (max-width: 540px) {
+  .header-container h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .header-container p {
+    width: 290px;
+  }
+
+  .navigation-container {
+    align-items: flex-start;
+    margin-left: 0px;
+    gap: 0px;
+  }
+  .list-mode {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .list-mode h3 {
+    font-size: 24px;
+  }
+  .list-mode ul {
+    padding-left: 20px !important;
+  }
+
+  .div1 {
+    margin-left: 50px;
+  }
+
+  .div1 .text1 {
+    width: 330px;
+  }
 }
