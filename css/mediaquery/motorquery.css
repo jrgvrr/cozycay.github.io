@@ -112,7 +112,7 @@
     }
 
     .motor-main{
-        margin: -250px auto 0;
+        margin-top: -250px;
         
     } 
     
@@ -176,4 +176,58 @@
     .container-text1 p{
         width: 500px;
     }
+}
+
+@media (max-width: 490px){
+
+    .bg-motors .calc-header{
+      width: 372px;
+    }
+    .calc-main{
+      width: 385px;
+    }
+  
+    .form-select{
+      width: 333px;
+    }
+    .plan-container{
+      margin-left: -5px;
+    }
+  
+    .plan-container .btnPlan{
+      width: 250px;
+      left:25px;
+    }
+  
+    .plan-container p{
+      width: 328px;
+    }
+  
+    .container-text1 .headText{
+      font-size: 26px;
+    }
+    .container-text1 p{
+      width: 356px;
+    }
+  
+    .container8 .header8{
+      width: 230px;
+      font-size: 28px;
+    }
+    .container8 .descText{
+      width: 260px;
+      font-size: 14px;
+    }
+  }
+
+
+  
+
+
+@media (max-width:375px){
+    .calc-main{
+        width: 350px;
+
+    }
+
 }

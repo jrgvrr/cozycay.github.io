@@ -7,6 +7,7 @@
 
 body {
   scroll-behavior: smooth;
+  overflow-x: hidden !important;
 }
 
 /* ---------------cALCULATOR sECTION-------------------------- */
@@ -226,11 +227,11 @@ body {
 .motor-main {
   display: flex;
   flex-wrap: wrap;
-
+  
   justify-content: center;
   width: 80%;
   max-width: 1300px;
-  margin: 50px auto 0;
+  margin-top: 100px;
   padding: 10px 10px 10px 10px;
   gap: 40px;
 }
