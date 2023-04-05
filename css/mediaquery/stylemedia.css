@@ -201,18 +201,10 @@
   }
 }
 
+
 @media (max-width: 490px){
 
-  .bg-motors .calc-header{
-    width: 440px;
-  }
-  .calc-main{
-    width: 385px;
-  }
 
-  .form-select{
-    width: 333px;
-  }
   .plan-container{
     margin-left: -5px;
   }
@@ -241,4 +233,10 @@
     width: 260px;
     font-size: 14px;
   }
+
+  .subscribeI input{
+    width: 302px;
+  }
 }
+
+
