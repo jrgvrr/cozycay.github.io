@@ -8,8 +8,8 @@ function ConfirmPass() {
     circle.style.visibility = "hidden";
     ekiska.style.display = "flex";
     ekiska.style.visibility = "visible";
-    ekiska.style.position = "absolute";
-    ekiska.style.left = "520px";
+    ekiska.style.position = "relative";
+    ekiska.style.left = "-10px";
   } else if (pass2 === pass1 || pass1 === pass2) {
     circle.style.visibility = "visible";
     ekiska.style.visibility = "hidden";
@@ -17,7 +17,7 @@ function ConfirmPass() {
     circle.style.visibility = "hidden";
     ekiska.style.display = "flex";
     ekiska.style.visibility = "visible";
-    ekiska.style.position = "absolute";
-    ekiska.style.left = "520px";
+    ekiska.style.position = "relative";
+    ekiska.style.left = "-10px";
   }
 }
