@@ -1,0 +1,119 @@
+@media (max-width: 911px) {
+  .divi11 {
+    display: none;
+  }
+  .mainjavaa {
+    width: 600px;
+  }
+}
+@media (max-width: 620px) {
+  .mainjavaa {
+    width: 500px;
+  }
+  .divi1 {
+    margin-left: 100px;
+  }
+  .divi2 {
+    width: 200px;
+    margin-left: 100px;
+  }
+  .divi3 {
+    width: 200px;
+    margin-left: 100px;
+  }
+  .divi4 {
+    position: relative;
+    left: 100px;
+  }
+  .pass1 {
+    width: 200px;
+  }
+  .pass2 {
+    width: 170px;
+  }
+  .mainjava {
+    padding: 50px 96px 30px 15px;
+  }
+  .divi5 {
+    margin-left: 98px;
+  }
+  .divi8 p {
+    margin-left: 250px;
+  }
+  .divi9 {
+    margin-top: 20px;
+  }
+  .fcont {
+    margin-left: 10px;
+  }
+  .gcont {
+    margin-left: 30px;
+  }
+  .divi10 p {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+  }
+  .divi6 input {
+    position: relative;
+    left: 35px;
+  }
+}
+@media (max-width: 510px) {
+  .mainjavaa {
+    width: 350px;
+  }
+  .divi1 {
+    margin-left: 212px;
+  }
+  .divi2 {
+    margin-left: 212px;
+  }
+  .divi3 {
+    margin-left: 212px;
+  }
+  .fname {
+    width: 150px;
+  }
+  .lname {
+    width: 150px;
+  }
+  .ename {
+    width: 150px;
+  }
+  .phnom {
+    width: 150px;
+  }
+  .divi4 {
+    position: relative;
+    left: 212px;
+  }
+  .pass1 {
+    width: 150px;
+  }
+  .pass2 {
+    width: 115px;
+  }
+  .divi5 {
+    position: relative;
+    left: 115px;
+  }
+  .divi6 input {
+    position: relative;
+    left: 174px;
+    width: 212px;
+  }
+  .divi8 p {
+    position: relative;
+    left: 50px;
+    font-size: 15px;
+  }
+  .divi9 {
+    position: relative;
+    left: 50px;
+  }
+  .divi10 p {
+    position: relative;
+    left: 60px;
+  }
+}
