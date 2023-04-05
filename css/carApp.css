@@ -202,7 +202,7 @@ header img {
 }
 .descc{
     width: 1271px;
-    height: 1300px;
+    height: 1400px;
     padding: 50px;
    
 }
@@ -386,7 +386,10 @@ td {
 }
 
 .appForm {
-    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .appForm h2 {
@@ -417,16 +420,15 @@ td {
     font-size: 15px;
 }
 
+.conttt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .personForm {
-    padding-left: 100px;
-    margin-top: -100px;
-    max-width: 700px;
+    max-width: 1150px;
     width: 100%;
-    max-width: 900px;
-    width: 100%;
-    border-radius: 6px;
-    background-color: #fff;
-   
 }
 
 .personForm h2 {
