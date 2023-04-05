@@ -18,11 +18,11 @@ function CloseMotors(){
 function CheckScreen(){
     const screenWidth = window.screen.width;
 
-    if(screenWidth > 630){
+    if(screenWidth > 750){
         closedHam.style.visibility = 'hidden'
         openHam.style.visibility ='hidden'
     }
-    if(screenWidth < 630){
+    if(screenWidth < 750){
 
         if(motorNav.style.left === '0px'){
             closedHam.style.visibility = 'visible'

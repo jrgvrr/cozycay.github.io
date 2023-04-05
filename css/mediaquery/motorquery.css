@@ -79,6 +79,44 @@
     }
     
 }
+
+@media (max-width: 780px){
+    .bg-motors .calc-header{
+        width:670px;
+    text-align: center;    }
+
+    .nav-motors .nav-menu1{
+        flex-direction: column;
+    }
+
+    .motors-nav{
+        position: relative;
+        left: -1000px;  /*-10*/
+        top:0px;
+        height: 350px;
+        max-width: 200px;
+        z-index: 99;
+    }
+    #filter{
+        visibility: visible;
+        z-index: 99;
+    }
+
+    #aligner{
+        visibility: hidden;
+        z-index: 99;
+    }
+    .search-container{
+        position: relative;
+        left: -55px;
+    }
+
+    .motor-main{
+        margin: -250px auto 0;
+        
+    } 
+    
+}
 @media (max-width:650px) {
     .calc-main{
         width: 550px;
@@ -100,41 +138,10 @@
 }
 
 @media (max-width:630px){
-    .motors-nav{
-        position: relative;
-        left: -1000px;  /*-10*/
-        top:0px;
-        height: 350px;
-        max-width: 200px;
-        z-index: 99;
-
-
-    }
-
-    .motor-main{
-        margin: -250px auto 0;
-        
-    }
-
     
-    .nav-motors .nav-menu1{
-        flex-direction: column;
-    }
-    #filter{
-        visibility: visible;
-        z-index: 99;
-    }
 
-    #aligner{
-        visibility: hidden;
-        z-index: 99;
-    }
-
-
-    .search-container{
-        position: relative;
-        left: -55px;
-    }
+     
+   
 }
 
 

@@ -493,79 +493,67 @@ em {
 
 /* --------------------------------subcribe---------------------------------------- */
 
-.div1 {
-  display: flex;
-  direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-top: 100px;
-  margin-bottom: 100px;
+.section8{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+   height: 600px;
 }
-.sign {
-  font-family: "Montserrat";
-  font-weight: 700;
+
+.section8 .container8{
+  font-family: 'Montserrat';
+  width: 600px;
+  position: relative;
+  left: 150px;
+} 
+
+.container8 .header8{
   font-size: 40px;
-  width: 750px;
-  margin-left: 15px;
-  top: 0px;
-  margin-bottom: 0px;
-}
-.java {
-  color: rgb(0, 59, 236);
+  font-weight: bold;
+  width: 800px;
 }
 
-.text1 {
-  opacity: 60%;
-  color: rgb(12, 17, 31) font-family Poppins;
-  font-weight: 400;
+.container8 span{
+  color: #003bec;
+}
+
+.container8 .descText{
+  opacity: 0.6;
+  width: 545px;
   font-size: 20px;
-  width: 550px;
-  margin-left: 15px;
-  top: 0px;
 }
 
-.email {
-  font-family: Poppins;
-  font-weight: 400;
-  size: 20px;
+.container8 .subscribeI{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.subscribeI input{
   width: 370px;
   border-radius: 23px;
+  border: none;
   padding: 15px;
-  margin-left: 15px;
-  margin: px;
-  border: none;
-  background-color: rgb(237, 237, 237);
-  margin-bottom: 20px;
-}
-.subscribe {
-  background: linear-gradient(135deg, #003bec 0%, #016ac6 100%);
-  color: white;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  border: none;
-  display: flex;
-  flex-direction: flow;
-  justify-content: center;
-  align-items: flex-end;
-  padding: 14px 32px;
-  gap: 8px;
-  position: absolute;
-  border-radius: 32px;
-  margin-left: 15px;
-  cursor: pointer;
 }
 
-.car {
-  position: absolute;
-  width: 556px;
-  height: 325px;
-  justify-content: end;
-  align-items: end;
-  margin-top: 140px;
-  margin-left: 550px;
+.subscribeI button{
+  background: linear-gradient(135deg, #003bec 0%, #016ac6 100%);
+  color: white;
+  font-family: 'Poppins';
+  font-size: 16px;
+  padding: 14px 32px;
+  border-radius: 32px;
+  width: 150px;
+  border: none;
+}
+
+.section8 img{
+  position: relative;
+  top: 50px;
+  right: 110px;
+  width: 495px;
+  height: 275px;
 }
 
 /* ----------------------------Brands---------------------------------- */
@@ -582,7 +570,7 @@ em {
   justify-content: center;
 }
 .start {
-  font-family: Montserrat;
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 800;
   font-size: 48px;

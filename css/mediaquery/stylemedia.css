@@ -35,48 +35,30 @@
   .list-mode p {
     width: 180px;
   }
-  .div1 {
-    margin-left: -150px;
-  }
+  
 }
 
-@media (max-width: 930px) {
-  .div1 .sign {
-    width: 580px;
+@media (max-width:845px) {
+  .section8{
+    gap: 0px;
+    width: 100%;
   }
-}
-
-@media (max-width: 920px) {
-  .div1 {
-    margin-left: -165px;
+  .container8 .header8{
+    width: 500px;
   }
-  .div1 .sign {
-    font-size: 24px;
+  .container8 .descText{
+    width: 385px;
   }
-  .div1 .text1 {
-    font-size: 16px;
-  }
-
-  .div1 .car {
-    width: 380px;
-    height: 220px;
-    margin-left: 570px;
-    margin-top: 90px;
-  }
-}
-
-@media (max-width: 860px) {
-  .sign {
-    font-size: 18px;
-  }
-  .text1 {
+  .section8 img{
+    top: 0px;
+    right: 70px;
     width: 400px;
-  }
-
-  .car {
-    margin-left: 430px;
+    height: 250px;
   }
 }
+
+
+
 @media (max-width: 800px) {
   .header-nav {
     width: 100%;
@@ -97,6 +79,11 @@
     left: 0px;
     flex-direction: column;
     padding: 50px;
+    z-index: 99;
+  }
+
+  .nav-menu .btn-login{
+    z-index: 99;
   }
 
   .ham {
@@ -133,6 +120,30 @@
   .list-mode {
     gap: 100px;
   }
+
+  .section8 img{
+    display: none;
+  }
+
+  .section8 .container8{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    left: 10px;
+  }
+
+  .container8 .header8{
+    width:480px
+  }
+  .container8 .descText{
+    width: 500px;
+  }
+  .container8 .subscribeI{
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media (max-width: 740px) {
@@ -146,28 +157,9 @@
     gap: 50px;
   }
 
-  .div1 {
-    margin-left: 15px;
-  }
-  .div1 .car {
-    display: none;
-  }
-}
-@media (max-width: 680px) {
-  .div1 {
-    margin-left: 15px;
-  }
+ 
 }
 
-@media (max-width: 610px) {
-  .div1 {
-    margin-left: 15px;
-  }
-
-  .div1 .sign {
-    width: 380px;
-  }
-}
 
 @media (max-width: 540px) {
   .header-container h2 {
@@ -196,11 +188,57 @@
     padding-left: 20px !important;
   }
 
-  .div1 {
-    margin-left: 50px;
+  .section8 .container8{
+    left: 0px;
   }
 
-  .div1 .text1 {
-    width: 330px;
+  .container8 .header8{
+    width: 360px;
+    font-size: 28px;
+  }
+  .container8 .descText{
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 490px){
+
+  .bg-motors .calc-header{
+    width: 440px;
+  }
+  .calc-main{
+    width: 385px;
+  }
+
+  .form-select{
+    width: 333px;
+  }
+  .plan-container{
+    margin-left: -5px;
+  }
+
+  .plan-container .btnPlan{
+    width: 250px;
+    left:25px;
+  }
+
+  .plan-container p{
+    width: 328px;
+  }
+
+  .container-text1 .headText{
+    font-size: 26px;
+  }
+  .container-text1 p{
+    width: 356px;
+  }
+
+  .container8 .header8{
+    width: 230px;
+    font-size: 28px;
+  }
+  .container8 .descText{
+    width: 260px;
+    font-size: 14px;
   }
 }
