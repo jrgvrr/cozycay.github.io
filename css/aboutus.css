@@ -7,34 +7,38 @@
 
 /* ----------------------------------------- ABOUT US-------------------------------------*/
 .page3sec1 {
-  margin: 0;
-  padding: 0;
   width: 100%;
-  height: 1110px;
-}
-.About {
-  position: absolute;
+  height: auto;
   background-color: white;
-  width: 100%;
-  height: 1110px;
-  width: 100%;
   background: url("../img/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
-
+  
+.elements1 h1{
+  font-weight: bold; 
+  font-size: 30px;
+  margin-left: 50px;
+}
+.elements1 h2{
+  font-size: 50px; 
+  font-weight: bold; 
+  color: blue;
+  margin-left: 50px;
+}
+.elements1 p{
+  font-size: 20px; 
+  margin-left: 50px;
+  width: 600px;
+}
 .elements1 {
   display: flex;
   justify-content: center;
-  margin-top: 200px;
 }
-
-.elements1 .description {
-  margin-left: 100px;
-}
-
 .elements1 .logo {
-  margin-left: 200px;
+  margin-left: 100px;
 }
 
 .mission {
@@ -79,9 +83,6 @@
   display: flex;
   margin-top: 50px;
   justify-content: center;
-}
-.longdesc {
-  text-align: justify;
 }
 
 /* --------------------------------------------------MANAGING TEAM----------------------------------------------------------  */
