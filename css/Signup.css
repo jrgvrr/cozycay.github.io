@@ -1,3 +1,10 @@
+body {
+  height: 100vh;
+  background: url("../img/signin/signine.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  scroll-behavior: smooth;
+}
 .mainjavaa {
   width: 906px;
   height: 620px;
@@ -20,6 +27,32 @@
   border-bottom-right-radius: 10px;
   width: 320px;
   height: 623px;
+}
+.divi11 p {
+  width: 141px;
+  height: 72px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+
+  margin-left: 15px;
+  margin-top: 30px;
+}
+.carry {
+  display: flex;
+  align-items: center;
+  margin-left: 105px;
+  margin-top: 20px;
+  width: 122px;
+  height: 91px;
+  left: calc(50% - 122px / 2 + 293px);
+  top: calc(50% - 91px / 2 - 242px);
 }
 .para1 {
   width: 100px;
@@ -97,7 +130,7 @@
 }
 .pass2 {
   box-sizing: border-box;
-  width: 240px;
+  width: 225px;
   height: 60px;
   padding: 10px 10px;
   border: 1px solid rgba(0, 0, 0, 0.2);
@@ -151,7 +184,7 @@
 #ekis1 {
   color: red;
   margin-right: 1px;
-  display: none;
+  visibility: hidden;
 }
 .recheck {
   display: flex;
