@@ -12,8 +12,6 @@
   }
   .elements1 h2{
     font-size: 40px; 
-    font-weight: bold; 
-    color: blue;
   }
   .elements1 p{
     font-size: 16px; 
@@ -31,12 +29,10 @@
     top: 808px;
   }
   .bottombox h1{
-    color: white; 
     font-size: 30px; 
     font-weight: bold;  
   }
-  .bottombox p{
-    color: white; 
+  .bottombox p{ 
     justify-content: center;
     padding-left: 10px;
     font-size: 14px;
@@ -75,7 +71,6 @@
 }
 .people p{
     font-size: 10px; 
-    color: blue; 
     font-weight: bold; 
     text-align: center;
 }
@@ -92,12 +87,9 @@
 .mngtext h1{
     text-align: center;
     padding-top: 30px;
-    font-size: 30px; 
-    color: white; 
-    font-weight: bold;
+    font-size: 30px;
 }
 .mngtext p{
-    color: white; 
     font-size: 16px;
     text-align: center;
 }
