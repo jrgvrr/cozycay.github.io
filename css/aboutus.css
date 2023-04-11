@@ -20,21 +20,21 @@
 .elements1 h1{
   font-weight: bold; 
   font-size: 30px;
-  margin-left: 50px;
+
 }
 .elements1 h2{
   font-size: 50px; 
   font-weight: bold; 
   color: blue;
-  margin-left: 50px;
 }
 .elements1 p{
   font-size: 20px; 
-  margin-left: 50px;
+  width: 600px;
 }
 .elements1 {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .vision {
