@@ -31,38 +31,15 @@
 .elements1 p{
   font-size: 20px; 
   margin-left: 50px;
-  width: 600px;
 }
 .elements1 {
   display: flex;
   justify-content: center;
 }
-.elements1 .logo {
-  margin-left: 100px;
-}
-
-.mission {
-  width: 530px;
-  height: 283px;
-  left: 746px;
-  top: 808px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  background: rgba(2, 7, 46, 0.5);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  backdrop-filter: blur(4.5px);
-  /* Note: backdrop-filter has minimal browser support */
-  border-radius: 30px;
-  display: flex;
-}
-
-.missionicon {
-  margin-left: 50px;
-  margin-top: 40px;
-}
 
 .vision {
-  width: 530px;
-  height: 283px;
+  width: 430px;
+  height: 183px;
   left: 746px;
   top: 808px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -71,19 +48,29 @@
   backdrop-filter: blur(4.5px);
   /* Note: backdrop-filter has minimal browser support */
   border-radius: 30px;
-  margin-left: 300px;
   display: flex;
+
 }
 
-.visionicon {
-  margin-left: 50px;
-  margin-top: 40px;
-}
 .bottombox {
   display: flex;
   margin-top: 50px;
   justify-content: center;
+  gap: 50px;
+  
 }
+.bottombox h1{
+  color: white; 
+  font-size: 30px; 
+  font-weight: bold; 
+  text-align: center;
+  padding-top: 20px;
+}
+.bottombox p{
+  color: white; 
+  padding-left: 50px;
+}
+
 
 /* --------------------------------------------------MANAGING TEAM----------------------------------------------------------  */
 .page3sec2 {
@@ -108,6 +95,7 @@
   color: white;
   font-size: 20px;
   text-align: center;
+  padding: 20px;
 }
 
 .people {
@@ -166,87 +154,9 @@
   font-size: 30px;
   font-weight: bold;
 }
-/*-- --------------------------------------------------------------SIGN UP-------------------------------------------------------------------- */
 
-.page3sec4 {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 500px;
-}
 
-.sec4 {
-  display: flex;
-  direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-top: 100px;
-}
-.sign {
-  font-family: "Montserrat";
-  font-weight: 700;
-  font-size: 40px;
-  width: 750px;
-  margin-left: 15px;
-  margin-bottom: 0px;
-}
-.java {
-  color: rgb(0, 59, 236);
-}
 
-.text1 {
-  opacity: 60%;
-  color: rgb(12, 17, 31) font-family Poppins;
-  font-weight: 400;
-  font-size: 20px;
-  width: 550px;
-  margin-left: 15px;
-  top: 0px;
-}
-
-.email {
-  font-family: Poppins;
-  font-weight: 400;
-  size: 20px;
-  width: 370px;
-  border-radius: 23px;
-  padding: 15px;
-  margin-left: 15px;
-  margin: px;
-  border: none;
-  background-color: rgb(237, 237, 237);
-  margin-bottom: 20px;
-}
-.subscribe {
-  background: linear-gradient(135deg, #003bec 0%, #016ac6 100%);
-  color: white;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  border: none;
-  display: flex;
-  flex-direction: flow;
-  justify-content: center;
-  align-items: flex-end;
-  padding: 14px 32px;
-  gap: 8px;
-  position: absolute;
-  border-radius: 32px;
-  margin-left: 15px;
-  cursor: pointer;
-}
-
-.car {
-  position: absolute;
-  width: 556px;
-  height: 451;
-  justify-content: end;
-  align-items: end;
-  margin-top: 140px;
-  margin-left: 550px;
-}
 /* --------------------------------Footer------------------------------------------ */
 
 footer {
