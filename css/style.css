@@ -493,54 +493,54 @@ em {
 
 /* --------------------------------subcribe---------------------------------------- */
 
-.section8{
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   gap: 10px;
-   height: 600px;
+.section8 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 600px;
 }
 
-.section8 .container8{
-  font-family: 'Montserrat';
+.section8 .container8 {
+  font-family: "Montserrat";
   width: 600px;
   position: relative;
   left: 150px;
-} 
+}
 
-.container8 .header8{
+.container8 .header8 {
   font-size: 40px;
   font-weight: bold;
   width: 800px;
 }
 
-.container8 span{
+.container8 span {
   color: #003bec;
 }
 
-.container8 .descText{
+.container8 .descText {
   opacity: 0.6;
   width: 545px;
   font-size: 20px;
 }
 
-.container8 .subscribeI{
+.container8 .subscribeI {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.subscribeI input{
+.subscribeI input {
   width: 370px;
   border-radius: 23px;
   border: none;
   padding: 15px;
 }
 
-.subscribeI button{
+.subscribeI button {
   background: linear-gradient(135deg, #003bec 0%, #016ac6 100%);
   color: white;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-size: 16px;
   padding: 14px 32px;
   border-radius: 32px;
@@ -548,7 +548,7 @@ em {
   border: none;
 }
 
-.section8 img{
+.section8 img {
   position: relative;
   top: 50px;
   right: 110px;
@@ -570,7 +570,7 @@ em {
   justify-content: center;
 }
 .start {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 800;
   font-size: 48px;
