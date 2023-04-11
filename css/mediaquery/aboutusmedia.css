@@ -2,8 +2,6 @@
 @media (max-width: 1000px){
 .elements1 {
     flex-direction: column-reverse;
-    align-items: center;
-    justify-content: center;
   }
 .elements1 img{
     width: 80%;
@@ -11,17 +9,13 @@
   .elements1 h1{
     font-weight: bold; 
     font-size: 24px;
-    margin-left: 50px;
   }
   .elements1 h2{
     font-size: 40px; 
-    font-weight: bold; 
-    color: blue;
-    margin-left: 50px;
   }
   .elements1 p{
     font-size: 16px; 
-    margin-left: 50px;
+    width: 400px;
   }
   .bottombox {
     margin-top: 50px;
@@ -33,27 +27,16 @@
     height: 183px;
     left: 646px;
     top: 808px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    background: rgba(2, 7, 46, 0.5);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(4.5px);
-    /* Note: backdrop-filter has minimal browser support */
-    border-radius: 30px;
-    display: flex;
   }
   .bottombox h1{
-    color: white; 
     font-size: 30px; 
     font-weight: bold;  
   }
-  .bottombox p{
-    color: white; 
+  .bottombox p{ 
     justify-content: center;
     padding-left: 10px;
     font-size: 14px;
-  }
-  }
-  
+  }}
 
 /* -------------------managing team---------------------- */
  
@@ -88,29 +71,25 @@
 }
 .people p{
     font-size: 10px; 
-    color: blue; 
     font-weight: bold; 
     text-align: center;
-}}
- 
-@media (max-width: 600px){
-.page3sec2{
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: auto;
-    opacity: 0.8;
-    padding-bottom: 30px;
 }
+/*------ 1200 1st sec------ */
+.elements1 p{
+    font-size: 16px; 
+    width: 400px;
+  }
+  .elements1 img{
+    width: 50%;
+}}
+
+@media (max-width: 600px){
 .mngtext h1{
     text-align: center;
     padding-top: 30px;
-    font-size: 30px; 
-    color: white; 
-    font-weight: bold;
+    font-size: 30px;
 }
 .mngtext p{
-    color: white; 
     font-size: 16px;
     text-align: center;
 }
@@ -142,11 +121,51 @@
     font-size: 16px; 
     font-weight: bold; 
     text-align: center;
-}}
+}
+/*--- 1st sec 600 ---*/
+    .elements1 img{
+        width: 50%;
+    }
+    .elements1 h1{
+        font-weight: bold; 
+        font-size: 20px;
 
+      }
+.elements1 h2{
+        font-size: 24px; 
+        font-weight: bold; 
+        color: blue;
+      }
+.elements1 p{
+        font-size: 10px; 
+        width: 300px;
+      }
+.bottombox {
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .vision {
+    width: 330px;
+    height: 140px;
+    left: 646px;
+  }
+  .bottombox h1{
+    font-size: 30px; 
+    font-weight: bold;  
+  }
+  .bottombox p{
+    font-size: 14px;
+  }
+  .bottombox h1{
+    font-size: 24px; 
+  }
+  .bottombox p{ 
+    justify-content: center;
+    padding-left: 10px;
+    font-size: 10px;
+  }
 /* ----------------------------MARKET FACILITATOR------------------------------ */
-
-@media (max-width: 600px){
     .market {
         flex-direction: column;
       }
@@ -157,6 +176,6 @@
         font-size: 12px;
       }
       .market .img{
-        width: 80px;
+        width: 50px;
       }
 }
