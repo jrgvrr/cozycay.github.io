@@ -6,9 +6,12 @@ let btn = document.getElementById("btn-login");
 let headerNav = document.getElementById("header-nav");
 let header = document.getElementById("header");
 
+let webBody = document.body;
+
 function OpenHam() {
   hamburger.style.visibility = "hidden";
   hamX.style.visibility = "visible";
+  webBody.style.overflowY = 'hidden'
 
   headerNav.style.left = "0px";
   // headerNav.style.display = 'none'
@@ -25,6 +28,8 @@ function CloseHam() {
 
   hamburger.style.visibility = "visible";
   hamX.style.visibility = "hidden";
+
+  webBody.style.overflowY = 'visible'
 }
 
 function CheckScreen() {

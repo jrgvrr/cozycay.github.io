@@ -52,6 +52,26 @@
   }
 }
 
+@media (max-width:945px) {
+  .section2{
+    height: auto;
+  }
+  .how1{
+    gap: 70px;
+  }
+  
+  .howContainer2 p{
+    width: 400px;
+  }
+
+  .howContainer3 p{
+    width: 210px;
+  }
+  .carousel-indicators{
+    bottom: -15px !important;
+  }
+}
+
 @media (max-width:845px) {
   .section8{
     gap: 0px;
@@ -177,6 +197,10 @@
     justify-content: center;
     align-items: center;
   }
+
+  .how1{
+    gap: 10px;
+  }
 }
 
 @media (max-width: 740px) {
@@ -208,7 +232,28 @@
     width: 500px;
     height: 441px;
   }
+
+  .how1{
+    flex-direction: column;
+  }
+  .content-carousel .colored-text2{
+    text-align: center;
+  }
+  .carousel-indicators{
+    bottom: -5px !important;
+  }
+
+  .firstline{
+    font-size: 36px;
+  }
+
+  .thirdline{
+
+    width: 481px;
+  }
 }
+
+
 
 
 
@@ -260,6 +305,10 @@
   .second-bg .container1{
     padding: 73px 37px;
   }
+
+  .button .viewall{
+    width: 360px;
+  }
 }
 
 
@@ -309,7 +358,7 @@
     height: auto;
   }
   .first-bg .logo1{
-    width: 350px;
+    width: 445px;
   }
   .first-bg .cars1{
     width: 350px;
@@ -322,6 +371,58 @@
   .section-btn{
     display: flex;
     flex-direction: column;
+  }
+  .thirdline{
+
+    width: 363px;
+  }
+
+  /* .cards{
+    width: 367px;
+  }
+  .imgCard{
+    width: 367px;
+  } */
+}
+
+@media (max-width:400px) {
+  .first-bg .logo1{
+    width: 375px;
+  }
+  .howContainer2 p{
+    width: 290px;
+  }
+
+  .howContainer4 p{
+    width: 345px;
+  }
+
+  .button .viewall{
+    width: 315px;
+  }
+  .cards{
+    width: 300px;
+    height: auto;
+  }
+
+  .cards .imgCard{
+    width: 300px;
+    height: auto;
+  }
+
+  .btnCards{
+    margin-left: 170px;
+    margin-top: -57px;
+  }
+  .titleCards{
+    font-size: 20px;
+  }
+
+  .descCards{
+    font-size: 14px;
+  }
+  .imgCardCar{
+    width: 300px;
   }
 }
 
