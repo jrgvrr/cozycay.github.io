@@ -111,92 +111,120 @@ header img {
 
 /* --------------------------Intro Section-------------------------------- */
 
-.Baluyot {
-  /*main container*/
-  background-image: url("../img/bg1.jpg"), url("../img/bg2.png");
-  background-position: 0px 0px, 0px 667px;
-  background-repeat: no-repeat;
-  background-size: 100% 667px, 100% 534px;
+/* First Section */
+.section1{
+  margin: 0;
+  padding: 0;
   width: 100%;
+
 }
 
-.logoB {
-  margin-top: 50px;
-}
+/* First Image section where logo and cars is found */
+.section1 .first-bg{
+  width: 100%;
+  height: 667px;
+  background: url('../img/bg1.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
 
-.carsB {
-  margin-top: -230px;
-}
-
-.centerB {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.txtB {
-  /*text format*/
-  font-family: "Montserrat";
-  left: 46px;
+/* Logo and Cars Image */
+.first-bg .logo1{
+  width: 705px;
+  height: 544px;
+
+  margin-top: 190px;
+  margin-bottom: 220px;
+
+
 }
 
-.T1 {
-  color: black;
+.first-bg .cars1{
+  width: 1347px;
+  height: 450px;
+
+  margin-top: -445px;
+  background: transparent;
+  
+}
+
+.section1 .second-bg{
+  width: 100%;
+  height: 534px;
+  background: url('../img/bg2.png');
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+/* Container for text */
+.second-bg .container1{
+  display: flex;
+  flex-direction: column;
+
+  padding: 120px 150px;
+  justify-content: center;
+  align-items: start;
+
+  gap: 20px;
+}
+
+.header-text h1{
   font-size: 80px;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-  margin-left: 10%;
-  margin-top: 0px;
+
 }
 
-.T2 {
-  color: blue;
-  font-size: 80px;
+.header-text .colored-text{
+  margin-top: -30px;
+  color: #0038FF;
   font-weight: bold;
-  margin-left: 10%;
-  margin-top: -50px;
+
 }
 
-.T3 {
-  color: black;
+.header-info p{
+  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
-  font-weight: normal;
-  margin-left: 10%;
-  margin-top: -40px;
+  width: 631px;
+
+  margin-top: -20px;
 }
 
-.btnB {
-  /*button format*/
-  font-family: "Montserrat";
-  font-weight: bold;
-  font-size: 18x;
-  border-radius: 35px;
-  padding: 14px 40px;
+/* Buttons in first section */
+.section-btn{
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  gap: 20px;
 }
 
-.button1B {
-  color: #fff;
-  border: transparent;
-  background: #2193b0;
-  background: linear-gradient(111.69deg, #0038ff, #00d1ff);
-  margin-left: 10%;
+.right-btn{
+  width: 177px;
+  height: 52px;
+
+  background: linear-gradient(111.69deg, #0038FF 0%, #00D1FF 109.3%);
+  
+  border: none;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #FFFFFF;
 }
 
-.button2B {
-  color: blue;
-  background-color: transparent;
-  border-color: blue;
-  margin-left: 10px;
-  margin-bottom: 43px;
-}
+.left-btn{
+  width: 177px;
+  height: 52px;
 
-.button1B:hover {
-  color: black;
-  cursor: pointer;
-}
-.button2B:hover {
-  background: linear-gradient(111.69deg, #0038ff, #00d1ff);
-  color: white;
-  cursor: pointer;
+  border: 2px solid #0038FF;
+  background: transparent;
+  font-size: 18px;
+  font-weight: 700;
+  color: #0038FF;
+  border-radius: 50px;
 }
 
 /* ----------------Carousel----------------------- */

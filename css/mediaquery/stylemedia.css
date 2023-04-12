@@ -1,3 +1,11 @@
+@media(max-width:1500px){
+  .first-bg .cars1{
+    width: 1020px;
+    margin-top: -370px;
+  }
+}
+
+
 @media (max-width: 1180px) {
   header {
     justify-content: space-between;
@@ -38,6 +46,12 @@
   
 }
 
+@media (max-width:1080px){
+  .first-bg .cars1{
+    width: 850px;
+  }
+}
+
 @media (max-width:845px) {
   .section8{
     gap: 0px;
@@ -54,6 +68,26 @@
     right: 70px;
     width: 400px;
     height: 250px;
+  }
+
+  .first-bg .logo1{
+    width: 660px;
+    height: 542px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    position: relative;
+    top: -115px;
+  }
+
+  .first-bg .cars1{
+    width: 680px;
+    height: 308px;
+    position: relative;
+    top: 185px;
+  }
+
+  .second-bg .container1{
+    padding: 74px 66px;
   }
 }
 
@@ -156,8 +190,27 @@
     gap: 50px;
   }
 
- 
+  .first-bg .cars1{
+    width: 568px;
+    height: 215px;
+    top:268px;
+  }
+
+  .header-text h1{
+    font-size: 60px;
+  }
+
+  .header-info p{
+    width: 465px;
+  }
+
+  .first-bg .logo1{
+    width: 500px;
+    height: 441px;
+  }
 }
+
+
 
 
 @media (max-width: 540px) {
@@ -197,6 +250,15 @@
   }
   .container8 .descText{
     font-size: 18px;
+  }
+
+  .first-bg .cars1{
+    width: 484px;
+    height: 260px;
+  }
+
+  .second-bg .container1{
+    padding: 73px 37px;
   }
 }
 
@@ -241,6 +303,25 @@
 
   .subscribeI input{
     width: 302px;
+  }
+
+  .section1 .second-bg{
+    height: auto;
+  }
+  .first-bg .logo1{
+    width: 350px;
+  }
+  .first-bg .cars1{
+    width: 350px;
+    height: 209px;
+  }
+
+  .header-info p{
+    width: 275px;
+  }
+  .section-btn{
+    display: flex;
+    flex-direction: column;
   }
 }
 
