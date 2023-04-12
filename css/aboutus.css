@@ -16,19 +16,18 @@
   padding-bottom: 20px;
   padding-top: 20px;
 }
-  
-.elements1 h1{
-  font-weight: bold; 
-  font-size: 30px;
 
+.elements1 h1 {
+  font-weight: bold;
+  font-size: 30px;
 }
-.elements1 h2{
-  font-size: 50px; 
-  font-weight: bold; 
+.elements1 h2 {
+  font-size: 50px;
+  font-weight: bold;
   color: blue;
 }
-.elements1 p{
-  font-size: 20px; 
+.elements1 p {
+  font-size: 20px;
   width: 600px;
 }
 .elements1 {
@@ -49,7 +48,6 @@
   /* Note: backdrop-filter has minimal browser support */
   border-radius: 30px;
   display: flex;
-
 }
 
 .bottombox {
@@ -57,20 +55,18 @@
   margin-top: 50px;
   justify-content: center;
   gap: 50px;
-  
 }
-.bottombox h1{
-  color: white; 
-  font-size: 30px; 
-  font-weight: bold; 
+.bottombox h1 {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
   text-align: center;
   padding-top: 20px;
 }
-.bottombox p{
-  color: white; 
+.bottombox p {
+  color: white;
   padding-left: 50px;
 }
-
 
 /* --------------------------------------------------MANAGING TEAM----------------------------------------------------------  */
 .page3sec2 {
@@ -145,7 +141,6 @@
   display: flex;
   justify-content: center;
   margin: 20px;
-
 }
 .market .desc {
   margin: 30px;
@@ -154,8 +149,6 @@
   font-size: 30px;
   font-weight: bold;
 }
-
-
 
 /* --------------------------------Footer------------------------------------------ */
 
