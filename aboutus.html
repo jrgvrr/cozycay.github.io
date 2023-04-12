@@ -1,329 +1,378 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Us</title>
-    <link rel="stylesheet" href="./css/aboutus.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/mediaquery/stylemedia.css">
-    <link rel="stylesheet" href="./css/mediaquery/aboutusmedia.css">
+    <link rel="stylesheet" href="./css/aboutus.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/mediaquery/stylemedia.css" />
+    <link rel="stylesheet" href="./css/mediaquery/aboutusmedia.css" />
 
-     <!-- Google APi Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Google APi Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-   
-</head>
-<body>
-
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
     <header id="header">
-        <!--Logo-->
-        <div class="brand">
-            <img src="./img/Logo Design 2 2.png" alt="logo">
+      <!--Logo-->
+      <div class="brand">
+        <img src="./img/Logo Design 2 2.png" alt="logo" />
+      </div>
+      <!--Tabs-->
+      <nav class="header-nav" id="header-nav">
+        <ul class="nav-menu" id="nav-menu">
+          <li class="nav-item">
+            <a href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="./carsPage.html">Cars</a>
+          </li>
+          <li class="nav-item">
+            <a href="./MotorPage.html">Motorcycles</a>
+          </li>
+          <li class="nav-item">
+            <a href="./aboutus.html" class="active">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="./ContactPage.html">Contact Us</a>
+          </li>
+        </ul>
+
+        <div class="btn-login" id="btn-login">
+          <a href="SignIn.html">Login</a>
         </div>
-        <!--Tabs-->
-        <nav class="header-nav" id="header-nav">
-            <ul class="nav-menu" id="nav-menu">
-                <li class="nav-item">
-                    <a href="./index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="./carsPage.html">Cars</a>
-                </li>
-                <li class="nav-item">
-                    <a href="./MotorPage.html">Motorcycles</a>
-                </li>
-                <li class="nav-item">
-                    <a href="./aboutus.html" class="active">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a href="./ContactPage.html">Contact Us</a>
-                </li>
-            </ul>
+      </nav>
 
-            <div class="btn-login" id="btn-login">
-                <a href="SignIn.html">Login</a>
-            </div>
-            
-        </nav>
+      <div class="ham">
+        <i class="bi bi-list" id="hamList" onclick="OpenHam()">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="100"
+            height="50"
+            fill="currentColor"
+            class="bi bi-list"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+            />
+          </svg>
+        </i>
+        <i class="bi bi-x-lg" id="hamX" onclick="CloseHam()">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="80"
+            height="40"
+            fill="currentColor"
+            class="bi bi-x-lg"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"
+            />
+          </svg>
+        </i>
+      </div>
+    </header>
 
-        <div class="ham">
-            <i class="bi bi-list" id="hamList" onclick="OpenHam()">
-                <svg xmlns="http://www.w3.org/2000/svg" width="100" height="50" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-                  </svg>
-            </i>
-            <i class="bi bi-x-lg" id="hamX" onclick="CloseHam()">
-                <svg xmlns="http://www.w3.org/2000/svg" width="80" height="40" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
-                    <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
-                  </svg>
-            </i>
+    <!-- ------------------------------------------------------------------first section----------------------------------------------------------------- -->
+
+    <section class="page3sec1">
+      <div class="elements1">
+        <div class="description">
+          <h1>About Us</h1>
+          <h2>
+            What Is Java Auto <br />
+            Ventures OPC?
+          </h2>
+          <p>
+            Java Auto Motor Ventures (One Person Company) is a SEC-registered
+            company founded by its Chairman JULY JACINTO JAVA with head office
+            located at Unit 14-J Jenkinsen Tower, No. 80 Timog Avenue, Bgy.
+            Sacred Heart, Quezon City. Having a wide experience in the
+            Automotive and Motorcycle Industry, Mr. Java set-up his own Auto &
+            Motor Market Facilitation Company after a series of unforeseen
+            events from his predecessors for unfulfilled partnerships.
+          </p>
         </div>
-   
-    </header>  
+        <img src="./img/Logo Design 2 2.png" alt="LOGO" />
+      </div>
 
-<!-- ------------------------------------------------------------------first section----------------------------------------------------------------- -->
-   
-<section class="page3sec1">
-            <div class="elements1">
-                <div class="description"> 
-                <h1>About Us</h1>
-                <h2>What Is Java Auto <br> Ventures OPC?</h2>
-                <p>Java Auto Motor Ventures (One Person Company) is a
-                    SEC-registered company founded by its Chairman JULY JACINTO JAVA with head office located at Unit
-                    14-J Jenkinsen Tower, No. 80 Timog Avenue, Bgy.
-                    Sacred Heart, Quezon City.  Having a wide experience 
-                    in the Automotive and Motorcycle Industry, Mr. Java 
-                    set-up his own Auto & Motor Market Facilitation 
-                    Company after a series of unforeseen events from his 
-                    predecessors for unfulfilled partnerships.</p>
-                </div> 
-                <img src="./img/Logo Design 2 2.png" alt="LOGO">
-            </div>
+      <div class="bottombox">
+        <div class="vision">
+          <div>
+            <h1>MISSION</h1>
+            <p>
+              To serve the buying public with the real partner in auto motor
+              trading system providing a no interest with best deal discount
+              program.
+            </p>
+          </div>
 
-            <div class="bottombox">
-            <div class="vision">
-                <div>
-                <h1>MISSION</h1>
-                <P>To serve the buying public with the 
-                    real partner in auto motor trading 
-                    system providing a no interest with 
-                    best deal discount program.</P>
-                </div>
-                
-                <div class="icon">
-                    <img src="./img/AboutUs/Missionlogo.png" alt="Mission Icon">
-                </div>
-                
-                
-            </div>
-                <div class="vision">
-                <div>
-                    <h1>VISION</h1>
-                    <P>To become the leading Market Facilitator Company in the 
-                    Automotor Industry.
-                </div>
-                <div class="icon">
-                <img src="./img/AboutUs/visionlogo.png" alt="Vision Icon">
-                </div>
-            
-                </div>
-               
-            </div>
+          <div class="icon">
+            <img src="./img/AboutUs/Missionlogo.png" alt="Mission Icon" />
+          </div>
+        </div>
+        <div class="vision">
+          <div>
+            <h1>VISION</h1>
+            <p>
+              To become the leading Market Facilitator Company in the Automotor
+              Industry.
+            </p>
+          </div>
+
+          <div class="icon">
+            <img src="./img/AboutUs/visionlogo.png" alt="Vision Icon" />
+          </div>
+        </div>
+      </div>
     </section>
- 
+
     <!-- --------------------------------------------------------------MANAGING TEAM---------------------------------------------------------------------- -->
 
     <section class="page3sec2">
-    <div class="mngteam">
+      <div class="mngteam">
         <div class="mngtext">
-        <h1>MANAGING TEAM</h1>
-        <p>We can meet all of your automotive requirements. We have a large selection of vehicles, an experienced and 
-            friendly sales team, and experienced business managers to help you with your financing and insurance needs.  
-            please let us know how we can assist you.</p>
+          <h1>MANAGING TEAM</h1>
+          <p>
+            We can meet all of your automotive requirements. We have a large
+            selection of vehicles, an experienced and friendly sales team, and
+            experienced business managers to help you with your financing and
+            insurance needs. please let us know how we can assist you.
+          </p>
         </div>
 
+        <div class="people">
+          <div class="july">
+            <img src="img/AboutUs/bosspic.png" alt="vice" />
+            <h1>July J. Java</h1>
+            <p>President, CEO</p>
+          </div>
 
-<div class="people">
+          <div class="july">
+            <img src="img/AboutUs/bosspic2.png" alt="vice" />
+            <h1>Michael S. Perez</h1>
+            <p>General Manager</p>
+          </div>
 
-    <div class="july">
-        <img src="img/AboutUs/bosspic.png" alt="vice"> 
-        <h1>July J. Java</h1> 
-        <p>President, CEO</p>
-    </div>
+          <div class="july">
+            <img src="img/AboutUs/bosspic3.png" alt="vice" />
+            <h1>Melissa N. Java</h1>
+            <p>Vice President</p>
+          </div>
 
-    <div class="july">
-        <img src="img/AboutUs/bosspic2.png" alt="vice">
-        <h1>Michael S. Perez</h1>
-        <p>General Manager</p>
-    </div>
+          <div class="july">
+            <img src="img/AboutUs/bosspic4.png" alt="sale managers" />
+            <h1>Mark Arnie Bibera</h1>
+            <p>General Sale Manager</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        
+    <!-- --------------------------------------------------------------MARKET FACILITATOR-------------------------------------------------------------------- -->
 
+    <section class="page3sec3">
+      <div class="whole">
+        <div class="market">
+          <img
+            src="./img/AboutUs/marketpic.png"
+            alt="Market Facilitator Company"
+          />
+          <div class="desc">
+            <h1>MARKET FACILITATOR COMPANY</h1>
+            <p>
+              Works to stimulate market to evolve in a way that increasingly
+              involves and benefits both the producers and the businesses
+              without becoming a part of the market themselves
+            </p>
+          </div>
+        </div>
+        <div class="market">
+          <img src="./img/AboutUs/marketpic2.png" alt="Primary objective" />
+          <div class="desc">
+            <h1>PRIMARY OBJECTIVE</h1>
+            <p>
+              To assists the buying public in acquiring their desired auto or
+              motor vehicle at a very low installment payment scheme that is the
+              lowest in the financing market.
+            </p>
+          </div>
+        </div>
+        <div class="market">
+          <img src="./img/AboutUs/marketpic3.png" alt="Partnership Strategy" />
+          <div class="desc">
+            <h1>PARTNERSHIP STRATEGY</h1>
+            <p>
+              Act as the 3rd party facilitator between the dealers and financial
+              institutions to help the buying public get the lowest priced
+              installment program for brand new and second-hand cars in the
+              market
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <div class="july">
-        <img src="img/AboutUs/bosspic3.png" alt="vice">
-        <h1>Melissa N. Java</h1> 
-        <p>Vice President</p>
-    </div>
+    <!-- --------------------------------------------------------------SIGN UP-------------------------------------------------------------------- -->
 
-    <div class="july">
-        <img src="img/AboutUs/bosspic4.png" alt="sale managers">
-        <h1>Mark Arnie Bibera</h1>
-        <p>General Sale Manager</p>
-    </div>
-        
-</div>
+    <section class="section8">
+      <div class="container8">
+        <p class="header8">
+          Sign Up To The <span class="java">Java Auto Motor</span> Newsletter
+        </p>
+        <p class="descText">
+          Do you want to be the first to know about the latest automotive deals?
+          Just subscribe with your email address and we’ll send you alerts on
+          the most incredible deals as they happen.
+        </p>
 
-    </div>
-</section>
+        <div class="subscribeI">
+          <input class="email" type="text" placeholder="Your Email Address" />
 
-<!-- --------------------------------------------------------------MARKET FACILITATOR-------------------------------------------------------------------- -->
+          <button class="subscribe">Subscribe</button>
+        </div>
+      </div>
 
-<section class="page3sec3">
- 
-        <div class="whole">
-            <div class="market">
-                <img src="./img/AboutUs/marketpic.png" alt="Market Facilitator Company">
-                <div class="desc">
-                    <h1>MARKET FACILITATOR COMPANY</h1>
-                    <p>Works to stimulate market to evolve in a way that increasingly involves and 
-                    benefits both the producers and the businesses without becoming a part of 
-                    the market themselves </p>
-                </div>
-            </div>
-            <div class="market">
-                <img src="./img/AboutUs/marketpic2.png" alt="Primary objective">
-                <div class="desc">
-                    <h1>PRIMARY OBJECTIVE</h1>
-                    <p>To assists the buying public in acquiring their desired auto or motor vehicle at a 
-                    very low installment payment scheme that is the lowest in the financing 
-                    market.</p>
-                </div> 
-            </div>
-            <div class="market">
-                <img src="./img/AboutUs/marketpic3.png" alt="Partnership Strategy">
-                <div class="desc">
-                    <h1>PARTNERSHIP STRATEGY</h1>
-                    <p>Act as the 3rd party facilitator between the dealers and financial institutions    
-                        to help the buying public get the lowest priced installment program for brand 
-                        new and second-hand cars in the market</p>
-                </div>
+      <img class="car" src="./img/design1.png" alt="Car Design" />
+    </section>
+    <!-- --------------------------------------------------------------footer-------------------------------------------------------------------- -->
+
+    <section>
+      <footer>
+        <div class="footer-container">
+          <div class="header-container">
+            <h2>
+              Buy your desired vehicle at a <br />
+              very low easy payment scheme
+            </h2>
+            <p>
+              Get a free pouch from us for every purchase of at least $900.00
+              and don't forget to subscribe again
+            </p>
+            <div class="sub-btn">
+              <a href="#" class="subcribe-btn">Subcribe</a>
             </div>
           </div>
-</section>
+          <div class="navigation-container">
+            <div class="logo-contain">
+              <div class="logo-main">
+                <img src="./img/Logo Design 2 2.png" alt="" />
+                <h3>JAVA AUTO MOTORS</h3>
+              </div>
 
-<!-- --------------------------------------------------------------SIGN UP-------------------------------------------------------------------- -->
-
-<section class="section8">
-
-        
-    <div class="container8">
-        <p class="header8">Sign Up To The <span class="java">Java Auto Motor</span> Newsletter</p>
-        <p class="descText">
-            Do you want to be the first to know about the latest automotive deals? Just subscribe with your email address and we’ll send you alerts on the most incredible deals as they happen.
-        </p>
-        
-        <div class="subscribeI">
-            <input class="email" type="text" placeholder="Your Email Address" />
-        
-            <button class="subscribe">Subscribe</button>
-        </div>
-        
-
-    </div>
-
-        <img class="car" src="./img/design1.png" alt="Car Design" />
-</section>
-<!-- --------------------------------------------------------------footer-------------------------------------------------------------------- -->
-
-<section>
-    <footer>
-        <div class="footer-container">
-            <div class="header-container">
-                <h2>Buy your desired vehicle at a <br> very low easy payment scheme</h2>
-                <p>Get a free pouch from us for every purchase of at least $900.00 and don't forget to subscribe again</p>
-                <div class="sub-btn">
-                    <a href="#" class="subcribe-btn">Subcribe</a>
-                </div>
+              <p>
+                A place to change all your hair styles at a very cheap and great
+                price
+              </p>
             </div>
-            <div class="navigation-container">
-                <div class="logo-contain">
-                    <div class="logo-main">
-                        <img src="./img/Logo Design 2 2.png" alt="">
-                        <h3>JAVA AUTO MOTORS</h3>
-                    </div>
 
-                    <p>A place to change all your hair styles at a very cheap and great price</p>
-                </div>
+            <div class="list-mode">
+              <div class="categ-contain">
+                <h3>Categories</h3>
 
-                <div class="list-mode">
-                    <div class="categ-contain">
-
-                        <h3>Categories</h3>
-
-                        <ul>
-                            <li><a href="./index.html">Home</a></li>
-                            <li><a href="./carsPage.html">Cars</a></li>
-                            <li><a href="./MotorPage.html">Motorcycle</a></li>
-                            <li><a href="./aboutus.html">About Us</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="contact-contain">
-
-                        <h3>Contact us</h3>
-
-                        <ul>
-                            <li><a href="#">Get A Quote</a></li>
-                            <li><a href="#">Customer Services</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="getin-contain">
-
-                        <h3>Get in touch</h3>
-
-                        <ul>
-                            <li><a href="#">09760577462</a></li>
-                            <li>
-                                <p>Unit-14 J, Jenkinsen Tower, No. 80 Timog Avenue,Brgy Sacred Heart Quezon City</p>
-                            </li>
-                        </ul>
-
-
-                        <div class="socials">
-                            <ul class="soc-menu">
-                                <li class="soc-item">
-                                    <a href="#" target="_blank">
-                                        <i class="fa fa-facebook" title="Facebook"></i>
-                                    </a>
-                                </li>
-                                <li class="soc-item">
-                                    <a href="#" target="_blank">
-                                        <i class="fa fa-twitter" title="Twitter"></i>
-                                    </a>
-                                </li>
-                                <li class="soc-item">
-
-                                    <a href="#" target="_blank">
-
-                                        <i class="bi bi-tiktok" title="Tiktok"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16"> 
-  <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z"/> 
-</svg></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-            <div class="terms-container">
                 <ul>
-                    <li><a href="#">Terms & Condition</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="./index.html">Home</a></li>
+                  <li><a href="./carsPage.html">Cars</a></li>
+                  <li><a href="./MotorPage.html">Motorcycle</a></li>
+                  <li><a href="./aboutus.html">About Us</a></li>
                 </ul>
+              </div>
+
+              <div class="contact-contain">
+                <h3>Contact us</h3>
+
+                <ul>
+                  <li><a href="#">Get A Quote</a></li>
+                  <li><a href="#">Customer Services</a></li>
+                </ul>
+              </div>
+
+              <div class="getin-contain">
+                <h3>Get in touch</h3>
+
+                <ul>
+                  <li><a href="#">09760577462</a></li>
+                  <li>
+                    <p>
+                      Unit-14 J, Jenkinsen Tower, No. 80 Timog Avenue,Brgy
+                      Sacred Heart Quezon City
+                    </p>
+                  </li>
+                </ul>
+
+                <div class="socials">
+                  <ul class="soc-menu">
+                    <li class="soc-item">
+                      <a href="#" target="_blank">
+                        <i class="fa fa-facebook" title="Facebook"></i>
+                      </a>
+                    </li>
+                    <li class="soc-item">
+                      <a href="#" target="_blank">
+                        <i class="fa fa-twitter" title="Twitter"></i>
+                      </a>
+                    </li>
+                    <li class="soc-item">
+                      <a href="#" target="_blank">
+                        <i class="bi bi-tiktok" title="Tiktok"
+                          ><svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-tiktok"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z"
+                            /></svg
+                        ></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
+          </div>
+          <div class="terms-container">
+            <ul>
+              <li><a href="#">Terms & Condition</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
         </div>
+      </footer>
+    </section>
 
-    </footer>
-
-
-</section>
-
-<script src="./js/index.js"></script>
-
-</body>
+    <script src="./js/index.js"></script>
+  </body>
 </html>
-

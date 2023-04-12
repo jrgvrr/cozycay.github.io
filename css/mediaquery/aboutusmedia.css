@@ -1,20 +1,20 @@
 /* -----------------------first section--------------------------------------*/
-@media (max-width: 1000px){
-.elements1 {
+@media (max-width: 1000px) {
+  .elements1 {
     flex-direction: column-reverse;
   }
-.elements1 img{
+  .elements1 img {
     width: 80%;
-}
-  .elements1 h1{
-    font-weight: bold; 
+  }
+  .elements1 h1 {
+    font-weight: bold;
     font-size: 24px;
   }
-  .elements1 h2{
-    font-size: 40px; 
+  .elements1 h2 {
+    font-size: 40px;
   }
-  .elements1 p{
-    font-size: 16px; 
+  .elements1 p {
+    font-size: 16px;
     width: 400px;
   }
   .bottombox {
@@ -28,119 +28,130 @@
     left: 646px;
     top: 808px;
   }
-  .bottombox h1{
-    font-size: 30px; 
-    font-weight: bold;  
+  .bottombox h1 {
+    font-size: 30px;
+    font-weight: bold;
   }
-  .bottombox p{ 
+  .bottombox p {
     justify-content: center;
     padding-left: 10px;
     font-size: 14px;
-  }}
+  }
+}
 
 /* -------------------managing team---------------------- */
- 
-@media (max-width: 1200px){
-.mngtext h1{
+
+@media (max-width: 1200px) {
+  .mngtext h1 {
     text-align: center;
     padding-top: 30px;
-    font-size: 50px; 
-     font-weight: bold;
-}
-.mngtext p{
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .mngtext p {
     font-size: 14px;
     text-align: center;
- }
-.july{
+  }
+  .july {
     width: 200px;
     height: 210px;
     margin: 10px;
-}
-.july img{
+  }
+  .july img {
     display: block;
     margin: auto;
     padding-top: 20px;
     width: 60%;
-}
-.people h1{
+  }
+  .people h1 {
     padding-top: 10px;
     margin-bottom: 0;
     text-align: center;
     font-size: 12px;
     font-weight: bold;
-}
-.people p{
-    font-size: 10px; 
-    font-weight: bold; 
+  }
+  .people p {
+    font-size: 10px;
+    font-weight: bold;
     text-align: center;
-}
-/*------ 1200 1st sec------ */
-.elements1 p{
-    font-size: 16px; 
+  }
+  /*------ 1200 1st sec------ */
+  .elements1 p {
+    font-size: 16px;
     width: 400px;
   }
-  .elements1 img{
+  .elements1 img {
     width: 50%;
-}}
+  }
+  /* ------1200 market facilatator----- */
+  .market {
+    display: flex;
+  }
+  .market h1 {
+    font-size: 20px;
+  }
+  .market p {
+    font-size: 12px;
+  }
+}
 
-@media (max-width: 600px){
-.mngtext h1{
+@media (max-width: 600px) {
+  .mngtext h1 {
     text-align: center;
     padding-top: 30px;
     font-size: 30px;
-}
-.mngtext p{
+  }
+  .mngtext p {
     font-size: 16px;
     text-align: center;
-}
-.people{
+  }
+  .people {
     padding-inline: 10px;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-}
-.july{
+  }
+  .july {
     width: 250px;
     height: 300px;
     margin: 10px;
-}
-.july img{
+  }
+  .july img {
     display: block;
     margin: auto;
     padding-top: 20px;
     width: 70%;
-}
-.people h1{
+  }
+  .people h1 {
     padding-top: 10px;
     margin-bottom: 0;
     text-align: center;
     font-size: 24px;
     font-weight: bold;
-}
-.people p{
-    font-size: 16px; 
-    font-weight: bold; 
+  }
+  .people p {
+    font-size: 16px;
+    font-weight: bold;
     text-align: center;
-}
-/*--- 1st sec 600 ---*/
-    .elements1 img{
-        width: 50%;
-    }
-    .elements1 h1{
-        font-weight: bold; 
-        font-size: 20px;
-
-      }
-.elements1 h2{
-        font-size: 24px; 
-        font-weight: bold; 
-        color: blue;
-      }
-.elements1 p{
-        font-size: 10px; 
-        width: 300px;
-      }
-.bottombox {
+  }
+  /*--- 1st sec 600 ---*/
+  .elements1 img {
+    width: 50%;
+  }
+  .elements1 h1 {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .elements1 h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: blue;
+  }
+  .elements1 p {
+    font-size: 10px;
+    width: 300px;
+  }
+  .bottombox {
     margin-top: 50px;
     flex-direction: column;
     align-items: center;
@@ -150,32 +161,29 @@
     height: 140px;
     left: 646px;
   }
-  .bottombox h1{
-    font-size: 30px; 
-    font-weight: bold;  
+  .bottombox h1 {
+    font-size: 30px;
+    font-weight: bold;
   }
-  .bottombox p{
+  .bottombox p {
     font-size: 14px;
   }
-  .bottombox h1{
-    font-size: 24px; 
+  .bottombox h1 {
+    font-size: 24px;
   }
-  .bottombox p{ 
+  .bottombox p {
     justify-content: center;
     padding-left: 10px;
     font-size: 10px;
   }
-/* ----------------------------MARKET FACILITATOR------------------------------ */
-    .market {
-        flex-direction: column;
-      }
-      .market h1 {
-        font-size: 20px;
-      }
-      .market p{
-        font-size: 12px;
-      }
-      .market .img{
-        width: 50px;
-      }
+  /* ----------------------------MARKET FACILITATOR------------------------------ */
+  .market {
+    flex-direction: column;
+  }
+  .market h1 {
+    font-size: 20px;
+  }
+  .market p {
+    font-size: 12px;
+  }
 }
