@@ -136,8 +136,6 @@
     z-index: 99;
   }
 
-  
-
   .ham {
     display: flex;
     flex-direction: row;
@@ -247,12 +245,32 @@
     font-size: 36px;
   }
 
-  .thirdline{
+  .contentH1 .thirdline{
 
     width: 481px;
   }
 }
 
+
+@media (max-width:700px){
+  .contentH1 .thirdline{
+
+    width: 658px;
+  }
+  .contentH1 .firstline{
+    font-size: 36px;
+  }
+}
+
+@media (max-width:660px){
+  .contentH1 .thirdline{
+
+    width: 485px;
+  }
+  .contentH1 .firstline{
+    font-size: 36px;
+  }
+}
 
 
 
@@ -377,12 +395,18 @@
     width: 363px;
   }
 
-  /* .cards{
-    width: 367px;
+  .contentH1 .thirdline{
+    width: 360px;
+    text-align: center;
+    margin-left: 55px;
   }
-  .imgCard{
-    width: 367px;
-  } */
+  .cars1 .cards{
+    width: 400px !important;
+  }
+
+  .carsPrice .btnCards{
+    margin-top: -11px;
+  }
 }
 
 @media (max-width:400px) {
@@ -424,6 +448,25 @@
   .imgCardCar{
     width: 300px;
   }
+
+   .card{
+    width: 305px !important;
+  }
+
+  .carsPrice .btnCards{
+    margin-left: 0px;
+    margin-top: -10px;
+  }
+
+  .contentH1 .thirdline{
+    width: 255px;
+  }
+
+  .cars1 .cards{
+    width: 330px !important;
+  }
+
+  
 }
 
 
