@@ -403,22 +403,26 @@ opacity: 0.8;
   align-items: center;
 }
 
+.contentH1{
+display: flex;
+text-align: center;
+flex-direction: column;
+}
 
-
-.firstline {
+.contentH1 .firstline {
   text-align: center;
   font-weight: 800;
   font-size: 48px;
 }
-em {
+.contentH1 em {
   font-style: normal;
   color: blue;
 }
-.secondline {
+.contentH1 .secondline {
   text-align: center;
   font-weight: 800;
 }
-.thirdline {
+.contentH1.thirdline {
   text-align: center;
   width: 821px;
 }
@@ -434,11 +438,14 @@ em {
   justify-content: center;
   
 }
-.cars1 .container {
+.cars1 .container1 {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
   justify-content: center;
+  margin: 0 !important;
+  width: 100%;
+  gap: 30px;
+
 }
 .cars1 .button {
   display: flex;
@@ -460,47 +467,36 @@ em {
 }
 
 /*--------cards---------*/
-.cards {
-  width: 384px;
-  height: 459px;
-  margin: 20px;
+.cars1 .cards {
+  /* width: 384px !important;
+  height: 459px; */
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
   background-color: white;
   border-radius: 30px;
-}
-.fa-star {
-  color: white;
-}
-.star {
-  color: white;
-  position: absolute;
-  height: 36px;
-  width: 62px;
-  backdrop-filter: blur(15px);
-  backdrop-filter: brightness(80%);
-  border-radius: 30px;
-  margin-top: 10px;
-  margin-left: 10px;
-  z-index: 1;
-}
-.roundStar {
-  position: absolute;
-  height: 24px;
-  width: 24px;
-  background-color: #f8c633;
-  border-radius: 30px;
-  margin-top: 5px;
-  margin-left: 6px;
-  text-align: center;
+  padding: 0 !important;
 }
 
-.ratingCard {
-  color: white;
-  position: absolute;
-  font-size: 12px;
-  font-weight: bold;
-  margin-top: 10px;
-  margin-left: 35px;
+.container1 .stars{
+  width: 62px;
+  height: 36px;
+  /* background: #dfdfdf; */
+  backdrop-filter: brightness(80%);
+  position: relative;
+  left: 20px;
+  top: -220px;
+  border-radius: 25px;
+  display: flex;
+  text-align: start;
+  align-items: center;
+  justify-content: start;
+  padding: 5px 5px;
+
+  gap: 3px;
+  transition: 1s ease;
 }
+
 .cards .imgCard {
   width: 384px;
   height: 239px;
@@ -529,18 +525,22 @@ em {
 .titleCards {
   font-weight: bold;
   font-size: 24px;
-  margin-top: 30px;
-  margin-left: 30px;
 }
 
-.descCards {
+.carsPrice {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+
+.carsPrice .descCards {
   font-size: 12px;
   font-weight: normal;
-  margin-top: 0px;
-  margin-left: 30px;
+
 }
-.btnCards {
-  position: absolute;
+.carsPrice .btnCards {
   color: white;
   font-size: 16px;
   width: 119px;
@@ -548,9 +548,9 @@ em {
   background-color: blue;
   border-radius: 30px;
   border-color: transparent;
-  margin-top: -65px;
-  margin-left: 230px;
-}
+  margin-top: 20px;
+
+} 
 
 .btnCards:hover {
   color: blue;
@@ -564,7 +564,10 @@ em {
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 1110px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .paragraph {
@@ -572,30 +575,133 @@ em {
   margin-bottom: 30px;
   text-align: center;
 }
-.motor {
+.section4 .motor {
   width: 100%;
   background: url("../img/bgmotor.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 850px;
+  height: auto;
   display: flex;
   flex-direction: column;
 }
-.motor .content {
+.motor .motor-main{
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  margin-top: 150px;
+  align-items: center;
+  gap: 30px;
+  margin-top: 50px;
+
 }
 
-.motor .viewall {
-  text-align: center;
-  color: white;
-  background-color: #003bec;
-  padding: 10px;
-  width: 500px;
-  border-radius: 50px;
-  font-size: 24px;
+.motor-main .card{
+  width:425px !important
 }
+
+.motor-main .stars {
+  width: 62px;
+  height: 36px;
+  /* background: #dfdfdf; */
+  backdrop-filter: brightness(80%);
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  border-radius: 25px;
+  display: flex;
+  text-align: start;
+  align-items: center;
+  justify-content: start;
+  padding: 5px 5px;
+
+  gap: 3px;
+  transition: 1s ease;
+}
+
+.stars i {
+  background-color: #f8c633;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 50px;
+}
+.stars h4 {
+  font-size: 13px;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+  color: white;
+}
+
+.img-top {
+  overflow: hidden;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+}
+
+.img-top img {
+  /*  add transition to the container  */
+
+  transition: all 0.5s ease-in-out;
+}
+
+.img-top:hover img {
+  transform: scale(1.2) rotate(0deg);
+}
+
+.img-top:hover .stars {
+  animation-name: starblink;
+  animation-duration: 0.6s;
+}
+
+@keyframes starblink {
+  from {
+    background: #fff;
+  }
+  to {
+    backdrop-filter: brightness(80%);
+  }
+}
+
+.motor-main .card-title {
+  font-weight: bold;
+}
+
+.motor-main .price-btn {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 30px;
+}
+
+.price-btn h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.price-btn .btn {
+  width: 119px;
+  height: 52px;
+  border-radius: 50px;
+  background: #003bec;
+  color: #fff;
+
+  margin-top: -10px;
+  padding-top: 12px;
+}
+
+
+.motor .button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 10px;
+}
+
+
+
 
 /* --------------------------------subcribe---------------------------------------- */
 
@@ -825,6 +931,8 @@ em {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  margin-top: 30px;
 }
 
 .header-faq {
